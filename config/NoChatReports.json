@@ -1,0 +1,16 @@
+{
+  "demandOnClient": true,
+  "demandOnServer": false,
+  "enableDebugLog": false,
+  "convertToGameMessage": false,
+  "showServerSafety": true,
+  "hideRedChatIndicators": true,
+  "hideYellowChatIndicators": true,
+  "hideGrayChatIndicators": true,
+  "hideWarningToast": true,
+  "alwaysHideReportButton": false,
+  "versionEasterEgg": true,
+  "disableTelemetry": true,
+  "showReloadButton": true,
+  "whitelistedServers": []
+}

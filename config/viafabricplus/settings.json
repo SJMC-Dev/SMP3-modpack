@@ -1,0 +1,36 @@
+{
+  "general": {
+    "multiplayer_screen_button_orientation": "RIGHT_TOP",
+    "add_server_screen_button_orientation": "RIGHT_TOP",
+    "direct_connect_screen_button_orientation": "RIGHT_TOP",
+    "filter_creative_tabs": "VANILLA_AND_MODDED",
+    "save_selected_protocol_version": true,
+    "show_advertised_server_version": true,
+    "ignore_packet_translation_errors": "KICK",
+    "load_skins_and_skulls_in_legacy_versions": true,
+    "beta_craft_authentication": true
+  },
+  "visual": {
+    "hide_download_terrain_screen_transition_effects": false,
+    "force_unicode_font_for_non_ascii_languages": false,
+    "sneak_instantly": true,
+    "enable_legacy_tablist": true,
+    "replace_hurt_sound_with_oof_sound": true,
+    "hide_modern_hud_elements": true,
+    "replace_creative_inventory_with_classic_inventory": true,
+    "old_walking_animation": true,
+    "legacy_pane_outlines": true,
+    "legacy_crop_outlines": true,
+    "disable_server_pinging": true
+  },
+  "advanced": {
+    "queue_config_packets": true,
+    "print_networking_errors_to_logs": true,
+    "ignore_fabric_sync_errors": false,
+    "filter_non_existing_glyphs": true,
+    "remove_server_description_sanitize": true,
+    "dont_create_packet_error_crash_reports": true,
+    "disable_sequencing": true
+  },
+  "selected_protocol_version": "26.3"
+}

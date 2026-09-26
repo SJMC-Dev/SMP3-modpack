@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "processOptiFine": true,
+  "processMCPatcher": false,
+  "renderSunMoon": true,
+  "renderStars": true,
+  "showOverworldForUnknownDimension": true,
+  "ignoreBrokenSkies": false
+}

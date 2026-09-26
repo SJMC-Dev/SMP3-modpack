@@ -1,0 +1,20 @@
+{
+	"appearance": {
+		"advancements_order": "CONFIGURED_ORDER",
+		"display_description": true,
+		"criterias_alphabetic_order": true,
+		"background_style": "TRANSPARENT",
+		"criterias_translation_mode": "TRY_TO_TRANSLATE",
+		"tabs_order": "ALPHABETIC",
+		"display_sideabar": true
+	},
+	"advanced_customization": {
+		"footer_height": 32,
+		"above_widget_limit": 14,
+		"custom_tabs_order": [],
+		"below_widget_limit": 14,
+		"custom_advancements_order": [],
+		"header_height": 48,
+		"criterias_width": 142
+	}
+}

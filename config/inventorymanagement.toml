@@ -1,0 +1,16 @@
+# Config version is auto-generated
+# DO NOT CHANGE
+configVersion = 1
+# Simple toggle for the mod! Set to false to disable.
+modEnabled = true
+# Whether to show sort buttons in the UI.
+showSort = true
+# Whether to show transfer buttons in the UI.
+showTransfer = true
+# Whether to show auto-stack buttons in the UI.
+showStack = true
+# Customize a default for button position.
+defaultPosition = [-4, -1]
+# Customize button position on a per-screen basis.
+
+[screenPositions]

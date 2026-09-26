@@ -1,0 +1,13 @@
+name = "XK Redstone Display"
+filename = "XK redstone display 26.0.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/4ueVo9s5/versions/JLIeAMSy/XK%20redstone%20display%2026.0.1.zip"
+hash-format = "sha512"
+hash = "a32f809fa3300f74f29137af06d26834aa4e77ae9fc1c08588a7f0c0d76d24e81e95ab44d46f9521aaa2f0a4eb3191e41f822ed023335d3cfa6ca727e700272b"
+
+[update]
+[update.modrinth]
+mod-id = "4ueVo9s5"
+version = "JLIeAMSy"

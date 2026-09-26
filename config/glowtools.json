@@ -1,0 +1,168 @@
+{
+  "EntityAlert": {
+    "enableAlerts": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "enableWanderingTrader": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "enablePillager": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "enableFoxEmerald": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "enableDrownedSniffer": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "enableCustomEntity": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "customEntityId": [],
+    "ignoreNamedEntities": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "notifyMode": "message",
+    "enableSound": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "useExternalSound": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "exitWorld": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "enableGlow": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "glowColor": "#00FFFFFF",
+    "soundIntervalMs": 300,
+    "soundCount": 3,
+    "customSoundId": "entity.generic.explode",
+    "customSoundPath": ""
+  },
+  "TropicalFish": {
+    "enableTropicalFishAlerts": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "notifyMode": "message",
+    "ignoreFromBucket": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "enableGlow": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "glowColor": "#00FFFFFF"
+  },
+  "TransferEnchanted": {
+    "transferHotkey": {
+      "keys": ""
+    },
+    "filterMode": "all",
+    "cycleFilterMode": {
+      "keys": ""
+    },
+    "onlyMaxLevel": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "excludeCursed": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "invertFilter": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "transferBook": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "transferBow": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "transferFishingRod": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "transferAll": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    }
+  },
+  "Others": {
+    "openConfigGui": {
+      "keys": ""
+    },
+    "remindAfterPlayerRespawn": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "playerRespawnRemindMode": "message",
+    "tweakerooFakeSneakModify": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    }
+  }
+}

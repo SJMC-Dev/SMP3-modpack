@@ -1,0 +1,327 @@
+{
+  waila: {
+    // 显示方块
+    // Default value: [true]
+    show_blocks: true,
+    // 显示流体
+    // 尝试显示流体
+    // Default value: [false]
+    show_fluids: true,
+    // 显示实体
+    // Default value: [true]
+    show_entities: true,
+    // 显示图标
+    // Default value: [true]
+    show_icon: true,
+    // 图标位置
+    // Default value: [MIDDLE]
+    // Available values: [TOP, MIDDLE, BOTTOM]
+    icon_position: "MIDDLE",
+    // 显示模组名称
+    // Default value: [true]
+    show_mod_name: true,
+    // 显示物品模组名称
+    // Default value: [true]
+    show_item_mod_name: true,
+    // 显示注册名称
+    // Default value: [false]
+    show_registry: false
+  },
+  minecraft: {
+    // 显示方块位置
+    // Default value: [false]
+    "block.position": false,
+    // 显示方块状态
+    // Default value: [false]
+    "block.state": true,
+    // 显示物品实体
+    // This value will get merged with the value from the server
+    // Default value: [true]
+    "entity.item_entity": true,
+    // 显示实体位置
+    // Default value: [false]
+    "entity.position": false,
+    // 显示生命值
+    // This value will get merged with the value from the server
+    // Default value: [true]
+    "entity.health": true,
+    // 显示伤害吸收值
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "entity.absorption": true,
+    // 显示护甲值
+    // This value will get merged with the value from the server
+    // Default value: [true]
+    "entity.armor": true,
+    // 紧凑模式
+    // 用数字而不是用图标在一行中显示生命值和护甲值
+    // Default value: [false]
+    "entity.compact": false,
+    // 每行最大图标
+    // 在新行开始之前生命值和盔甲值图标的最大数量
+    // Default value: [25]
+    "entity.icon_per_line": 25,
+    // 要绘制的最大生命值
+    // 强制分数视图前，图标绘制的最大生命值
+    // Default value: [100]
+    "entity.long_health_max": 100,
+    // 要绘制的最大护甲值
+    // 强制数字视图前，图标绘制的最大护甲值
+    // Default value: [100]
+    "entity.long_armor_max": 100,
+    // 显示宠物主人
+    // 仅适用于已注册的Minecraft帐户
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "pet.owner": true,
+    // 隐藏未知主人
+    // Default value: [false]
+    "pet.hide_unknown_owner": true,
+    // 显示马匹跳跃高度
+    // This value will get merged with the value from the server
+    // Default value: [true]
+    "horse.jump_height": true,
+    // 显示马匹行进速度
+    // This value will get merged with the value from the server
+    // Default value: [true]
+    "horse.speed": true,
+    // 显示熊猫基因
+    // This value will get merged with the value from the server
+    // Default value: [true]
+    "panda.genes": true,
+    // 显示蜂巢位置
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "bee.hive_pos": true,
+    // 显示蜂巢蜂蜜等级
+    // This value will get merged with the value from the server
+    // Default value: [true]
+    "bee.hive_honey_level": true,
+    // 显示蜂巢占领者
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "bee.hive_occupants": true,
+    // 显示信标效果
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "effect.beacon": true,
+    // 显示生物效果
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "effect.mob": true,
+    // 显示隐藏的生物效果
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [false]
+    "effect.hidden_mob": false,
+    // 显示正在播放的唱片
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "jukebox.record": true,
+    // 显示成长计时器
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "timer.grow": true,
+    // 显示繁殖冷却时间
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "timer.breed": true,
+    // 不显示隐身实体的信息
+    // This value will get merged with the value from the server
+    // Default value: [true]
+    "override.invisible_entity": true,
+    // 陷阱箱显示为正常箱子
+    // This value will get merged with the value from the server
+    // Default value: [true]
+    "override.trapped_chest": true,
+    // 细雪显示为正常雪
+    // This value will get merged with the value from the server
+    // Default value: [true]
+    "override.powder_snow": true,
+    // 被虫蚀的方块显示为正常方块
+    // This value will get merged with the value from the server
+    // Default value: [true]
+    "override.infested": true,
+    // 不显示搭乘的实体信息
+    // 搭乘矿车、马匹等可搭乘实体时，不显示详细信息
+    // Default value: [true]
+    "override.vehicle": true,
+    // 显示挖掘进度
+    // This value will get merged with the value from the server
+    // Default value: [true]
+    "breaking_progress.enabled": true,
+    // 挖掘进度颜色
+    // Default value: [-1426063361]
+    "breaking_progress.color": -1426063361,
+    // 只在底部边界显示进度条
+    // Default value: [false]
+    "breaking_progress.bottom_only": false,
+    // 显示刷怪笼类型
+    // This value will get merged with the value from the server
+    // Default value: [true]
+    "spawner.type": true,
+    // 显示作物生长进度
+    // This value will get merged with the value from the server
+    // Default value: [true]
+    "plant.crop_progress": true,
+    // 显示作物是否可生长
+    // This value will get merged with the value from the server
+    // Default value: [true]
+    "plant.crop_growable": true,
+    // 显示树木是否可生长
+    // This value will get merged with the value from the server
+    // Default value: [true]
+    "plant.tree_growable": true,
+    // 显示拉杆状态
+    // This value will get merged with the value from the server
+    // Default value: [true]
+    "redstone.lever": true,
+    // 显示中继器延迟
+    // This value will get merged with the value from the server
+    // Default value: [true]
+    "redstone.repeater": true,
+    // 显示比较器模式
+    // This value will get merged with the value from the server
+    // Default value: [true]
+    "redstone.comparator": true,
+    // 显示红石强度等级
+    // This value will get merged with the value from the server
+    // Default value: [true]
+    "redstone.level": true,
+    // 显示堆肥等级
+    // This value will get merged with the value from the server
+    // Default value: [true]
+    "level.composter": true,
+    // 显示乐器与音符
+    // This value will get merged with the value from the server
+    // Default value: [true]
+    "note_block.type": true,
+    // 音符显示模式
+    // Default value: [SHARP]
+    // Available values: [SHARP, FLAT]
+    "note_block.note": "SHARP",
+    // 显示整型等级数值
+    // Default value: [false]
+    "note_block.int_value": true,
+    // Show Shelf Items
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "shelf.items": true,
+    // 展示雕纹书架书籍
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "book.bookshelf": true,
+    // Show Lectern Books
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "book.lectern": true,
+    // 附魔显示模式
+    // Default value: [CYCLE]
+    // Available values: [SEPARATE, COMBINED, CYCLE, DISABLED]
+    "book.enchantment": "CYCLE",
+    // 附魔循环计时（毫秒）
+    // Default value: [500]
+    "book.enchantment_cycle_timing": 500,
+    // Show Book Details
+    // Default value: [true]
+    "book.details": true
+  },
+  harvest: {
+    // 显示收获物品
+    // This value will get merged with the value from the server
+    // Default value: [true]
+    enabled: true,
+    // 显示模式
+    // Default value: [MODERN]
+    // Available values: [MODERN, CLASSIC, CLASSIC_MINIMAL]
+    display_mode: "MODERN",
+    // 在创造上显示
+    // Default value: [false]
+    creative: false
+  },
+  wailax: {
+    // 显示方块能量
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "energy.enabled_block": true,
+    // 显示实体能量
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "energy.enabled_entity": true,
+    // 能量黑名单
+    // Custom config, open the following file
+    // extra\energy_blacklist.json5
+    "energy.blacklist": null,
+    // 显示方块流体内容
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "fluid.enabled_block": true,
+    // 显示实体流体内容
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "fluid.enabled_entity": true,
+    // 显示装置
+    // Default value: [MILLIBUCKETS]
+    // Available values: [MILLIBUCKETS, DROPLETS]
+    "fluid.display_unit": "MILLIBUCKETS",
+    // 流体内容黑名单
+    // Custom config, open the following file
+    // extra\fluid_blacklist.json5
+    "fluid.blacklist": null,
+    // 显示方块物品内容
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "item.enabled_block": true,
+    // 显示实体物品内容
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "item.enabled_entity": true,
+    // 同步NBT数据
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "item.nbt": true,
+    // 显示模式
+    // 网格: 显示为网格，就像物品栏的工作原理一样
+    // 列表：显示为带内联名称的垂直列表
+    // 动态：超过最大高度时从列表切换到网格
+    // Default value: [DYNAMIC]
+    // Available values: [GRID, LIST, DYNAMIC]
+    "item.display_mode": "DYNAMIC",
+    // 最大高度
+    // Default value: [3]
+    "item.max_height": 3,
+    // 按计数排序
+    // Default value: [true]
+    "item.sort_by_count": true,
+    // Grid Mode Scale
+    // Default value: [1.0]
+    "item.grid_mode_scale": 1.0,
+    // 物品内容黑名单
+    // Custom config, open the following file
+    // extra\item_blacklist.json5
+    "item.blacklist": null,
+    // 显示方块合成进度
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "progress.enabled_block": true,
+    // 显示实体合成进度
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "progress.enabled_entity": true,
+    // Show Estimated Time
+    // Require server to have WTHIT installed, if not, will be locked to [false]
+    // Default value: [true]
+    "progress.time": true,
+    // Replace Item Tooltip
+    // If enabled, replace item tooltip when the recipe has item input and/or output. If not enabled or no item input and output, only shows a progress bar.
+    // Default value: [false]
+    "progress.replace_items": false,
+    // Progress Bar Height
+    // Only for when it shown as a bar and not an arrow
+    // Default value: [1]
+    "progress.height": 1,
+    // 合成进度黑名单
+    // Custom config, open the following file
+    // extra\progress_blacklist.json5
+    "progress.blacklist": null
+  }
+}

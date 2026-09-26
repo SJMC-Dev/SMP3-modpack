@@ -1,0 +1,13 @@
+name = "Title Changer"
+filename = "titlechanger-1.4.8+mc26.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/TKf9jnHd/versions/EagRNur4/titlechanger-1.4.8%2Bmc26.3.jar"
+hash-format = "sha512"
+hash = "7d8584cf72a10ea39afc6a1c524a787e8717c8a5129769a4f0a276404b6eb01c8c85e5c4e35565ac3dbae9b818b423d00eab42883f3a63609baf9bee3e9d89a0"
+
+[update]
+[update.modrinth]
+mod-id = "TKf9jnHd"
+version = "EagRNur4"

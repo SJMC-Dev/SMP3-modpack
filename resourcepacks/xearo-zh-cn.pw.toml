@@ -1,0 +1,13 @@
+name = "Xaero地图汉化(MiniMap+WorldMap)"
+filename = "Xaero地图汉化(MiniMap+WorldMap).zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/f1l4fX9A/versions/TIACJ9tL/Xaero%E5%9C%B0%E5%9B%BE%E6%B1%89%E5%8C%96%28MiniMap%2BWorldMap%29.zip"
+hash-format = "sha512"
+hash = "a026f5e4fd82b8e91b307730c151ba943a50706dddf82ce4fd7975ea29d712df656462b350bcbf48b990490ece873d20aaa96d58cad86266b3ad4bda3d404909"
+
+[update]
+[update.modrinth]
+mod-id = "f1l4fX9A"
+version = "TIACJ9tL"

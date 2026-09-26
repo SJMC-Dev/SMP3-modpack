@@ -1,0 +1,9 @@
+{
+	"enabled": true,
+	"renderSky": true,
+	"renderSunMoon": true,
+	"renderStars": true,
+	"showOverworldForUnknownDimension": true,
+	"filteringMode": "NEAREST",
+	"debug": false
+}

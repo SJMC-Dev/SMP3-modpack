@@ -1,0 +1,16 @@
+{
+  "enableTitleChanging": true,
+  "useTemplateTitles": false,
+  "templateUsePlayingName": false,
+  "templateUseDimensionSpecific": false,
+  "windowTitle": "XPlus PerioTable v7.3.2 based on Minecraft 26.3 (Fabric) | Fabric Loader 0.19.5",
+  "openConfigKey": "",
+  "enableSetWindowTitleCommand": false,
+  "animationMode": "FADE",
+  "animationTitle": "",
+  "animationSpeed": 6,
+  "triggerOnSleep": false,
+  "triggerOnRespawn": false,
+  "triggerOnKill": false,
+  "triggerBindMode": "NONE"
+}

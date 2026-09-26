@@ -1,0 +1,13 @@
+name = "Caxton"
+filename = "caxton-fabric-26.3-1.2.0-alpha.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/k8iIgzXE/versions/pq5h5xmw/caxton-fabric-26.3-1.2.0-alpha.2.jar"
+hash-format = "sha512"
+hash = "7cd9fc0d1c4e5c5aabf13e7aff8c182c6b4150d48831efda26d2dd16ad78c0e0267e3b1df578b6572d79a283d6ebed7564528070d1941b4ef8a14668a7186740"
+
+[update]
+[update.modrinth]
+mod-id = "k8iIgzXE"
+version = "pq5h5xmw"

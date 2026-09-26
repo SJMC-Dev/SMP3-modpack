@@ -1,0 +1,36 @@
+{
+  "main_menu": {
+    "top_left": [
+    
+    ],
+    "top_right": [
+    
+    ],
+    "bottom_left": [
+    
+    ],
+    "bottom_right": [
+      {"text":"XPlus PerioTable based on Minecraft 26.3 (Fabric)","clickEvent":{"action":"open_url","value":"https://modrinth.com/modpack/xplus-2.0-modpack-global"},"hoverEvent":{"action":"show_text","contents":"Made with \u2764 by Wudji"}}
+    ],
+    "mod_blacklist": [
+
+    ]
+  },
+  "pause_menu": {
+    "top_left": [
+    
+    ],
+    "top_right": [
+    
+    ],
+    "bottom_left": [
+    
+    ],
+    "bottom_right": [{"text":"XPlus PerioTable based on Minecraft 26.3 (Fabric)","clickEvent":{"action":"open_url","value":"https://modrinth.com/modpack/xplus-2.0-modpack-global"},"hoverEvent":{"action":"show_text","contents":"Made with \u2764 by Wudji"}}
+    
+    ],
+    "mod_blacklist": [
+
+    ]
+  }
+}

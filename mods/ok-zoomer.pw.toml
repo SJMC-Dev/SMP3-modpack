@@ -1,0 +1,13 @@
+name = "Ok Zoomer - It's Zoom!"
+filename = "ok_zoomer-19.0.0-beta.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/aXf2OSFU/versions/3UXOK2JF/ok_zoomer-19.0.0-beta.2.jar"
+hash-format = "sha512"
+hash = "1e3b127e74f497c51ef0e99a08301ae9ce1778f4b2909c11fbc9ebc75c8051520f2a2b6f52af6e4171b0272d4f2237c6103571f001052df55b5ea8058e12abc4"
+
+[update]
+[update.modrinth]
+mod-id = "aXf2OSFU"
+version = "3UXOK2JF"

@@ -1,0 +1,113 @@
+{
+    "version": 1,
+    "overrides": {
+      "continuity": {
+        "-depends": {
+            "minecraft": "*"
+          }
+      },
+      "reeses-sodium-options": {
+        "-depends": {
+          "minecraft": "*",
+          "sodium":"*"
+        }
+      },
+      "masa_gadget_mod": {
+          "-depends": {
+            "minecraft": "*"
+          }
+      },
+      "notenoughanimations": {
+          "-depends": {
+            "minecraft": "*"
+          }
+      },
+      "entityculling": {
+          "-depends": {
+            "minecraft": "*"
+          }
+      },
+      "magiclib": {
+          "-depends": {
+            "minecraft": "*"
+          }
+      },
+      "magiclib_core": {
+          "-depends": {
+            "minecraft": "*"
+          }
+      },
+      "packetfixer": {
+          "-depends": {
+            "minecraft": "*"
+          }
+      },
+      "magiclib_malilib_extra": {
+          "-depends": {
+            "minecraft": "*"
+          }
+      },
+      "magiclib_minecraft_api": {
+          "-depends": {
+            "minecraft": "*"
+          }
+      },
+      "searchables": {
+          "-depends": {
+            "minecraft": "*"
+          }
+      },"advancements_reloaded": {
+          "-depends": {
+            "minecraft": "*"
+          }
+      },"architectury": {
+          "-depends": {
+            "minecraft": "*"
+          }
+      },"xaeroplus": {
+          "-depends": {
+            "minecraft": "*"
+          }
+      },"modelfix": {
+          "-depends": {
+            "minecraft": "*"
+          }
+      },"skyboxify": {
+          "-depends": {
+            "minecraft": "*"
+          }
+      },"lightconfig": {
+          "-depends": {
+            "minecraft": "*"
+          }
+      },"transition": {
+          "-depends": {
+            "minecraft": "*"
+          }
+      },"trender": {
+          "-depends": {
+            "minecraft": "*"
+          }
+      },"configured": {
+          "-depends": {
+            "minecraft": "*"
+          }
+      },"controlling": {
+          "-depends": {
+            "minecraft": "*"
+          }
+      },"fullscreenfix": {
+          "-depends": {
+            "minecraft": "*"
+          }
+      },"b100lib": {
+          "-depends": {
+            "minecraft": "*"
+          }
+      },"minihud": {
+          "-depends": {
+            "malilib": "*"
+          }
+      }
+    }
+}

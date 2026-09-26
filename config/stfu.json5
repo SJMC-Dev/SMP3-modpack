@@ -1,0 +1,23 @@
+{
+	maxChatHistory: 100,
+	announceAdvancements: true,
+	advancementToasts: true,
+	recipeToasts: false,
+	adminChat: "ENABLED",
+	compactChat: "ONLY_CONSECUTIVE",
+	disableWidgetFade: true,
+	disableFade: false,
+	disableSplash: true,
+	disableLoadingTerrain: true,
+	disableWorldAdvice: false,
+	nightVisionFlicker: true,
+	disableParticles: false,
+	animateTextures: true,
+	renderWeather: true,
+	combineBars: false,
+	deleteToTrash: true,
+	unfocusedVolume: 1.0,
+	renderThreadPriority: 8,
+	serverThreadPriority: 8,
+	ioThreadPriority: 1
+}

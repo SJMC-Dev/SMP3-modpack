@@ -1,0 +1,13 @@
+{
+  "config": {
+    "tradeDelayTicks": 5,
+    "maxTradesPerAction": 64,
+    "stopOnDesync": true,
+    "lastTradeCategory": "ALL_TRADES",
+    "lastSortMode": "SMART",
+    "lastTradeCategories": {},
+    "autoTradeOnOpen": false
+  },
+  "favoriteTradeKeys": [],
+  "villagers": {}
+}
