@@ -1,0 +1,15 @@
+name = "smp3"
+author = "SJMC"
+version = "dev"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+
+[versions]
+fabric = "0.19.5"
+minecraft = "26.3"
+
+[options]
+no-internal-hashes = true
