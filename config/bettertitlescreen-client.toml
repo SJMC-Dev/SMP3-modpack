@@ -1,9 +1,0 @@
-["custom text"]
-	#Insert the custom title screen text you want here (supports multiple lines)
-	text = ["§4B§6E§eT§2T§3E§1R §5T§4I§6T§eL§2E §3S§1C§5R§4E§6E§eN"]
-
-[versions]
-	#Show which version of Minecraft the client is currently running.
-	showMcVersion = true
-	#Show the Fabric suffix, after the Minecraft version (Not default Fabric behavior anymore)
-	showFabric = false

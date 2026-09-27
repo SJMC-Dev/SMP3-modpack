@@ -1,6 +1,0 @@
-#Developer Config
-[developer]
-	#Whether to enable developer mode.
-	enableDeveloperMode = false
-	#Range: > -2147483648
-	oneTimeEvents = 0
