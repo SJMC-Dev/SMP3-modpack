@@ -1,0 +1,74 @@
+name: Refresh release index
+
+on:
+  push:
+    branches:
+      - dev
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-release
+  cancel-in-progress: false
+
+env:
+  PACKWIZ_URL: "https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip"
+  PACKWIZ_CACHE_KEY: "packwiz-linux-x86_64"
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout dev
+        uses: actions/checkout@v5
+        with:
+          ref: dev
+
+      - name: Restore packwiz from cache
+        id: packwiz-cache
+        uses: actions/cache@v5
+        with:
+          path: ~/.local/bin/packwiz
+          key: ${{ env.PACKWIZ_CACHE_KEY }}
+
+      - name: Download packwiz
+        if: steps.packwiz-cache.outputs.cache-hit != 'true'
+        run: |
+          set -euo pipefail
+          curl -fL --retry 3 --retry-delay 5 -o /tmp/packwiz.zip "$PACKWIZ_URL"
+          rm -rf /tmp/packwiz-extract
+          mkdir -p /tmp/packwiz-extract "$HOME/.local/bin"
+          unzip -o /tmp/packwiz.zip -d /tmp/packwiz-extract
+          install -m 0755 /tmp/packwiz-extract/packwiz "$HOME/.local/bin/packwiz"
+
+      - name: Add packwiz to PATH and verify
+        run: |
+          set -euo pipefail
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          "$HOME/.local/bin/packwiz" --version || "$HOME/.local/bin/packwiz" help
+
+      - name: Drop no-internal-hashes from pack.toml
+        run: |
+          set -euo pipefail
+          if grep -q '^\[options\]$' pack.toml; then
+            sed -i '/^\[options\]$/d; /^no-internal-hashes = true$/d' pack.toml
+          fi
+          ! grep -q 'no-internal-hashes' pack.toml
+
+      - name: Refresh packwiz index
+        run: |
+          set -euo pipefail
+          # packwiz refresh 要求根目录先有 index.toml 才会生成索引（dev 不跟踪该文件）
+          touch index.toml
+          packwiz refresh
+
+      - name: Commit snapshot and force push to release
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Refresh index"
+          git push --force origin HEAD:release
