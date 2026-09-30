@@ -69,6 +69,6 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
+          git add -f pack.toml index.toml
           git commit -m "Refresh index"
           git push --force origin HEAD:release

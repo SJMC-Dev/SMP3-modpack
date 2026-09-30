@@ -10,6 +10,7 @@ hash-format = "sha256"
 [versions]
 fabric = "0.19.5"
 minecraft = "26.3"
+unsup = "1.2.7"
 
 [options]
 no-internal-hashes = true
