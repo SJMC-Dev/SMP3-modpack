@@ -1,0 +1,13 @@
+name = "Servux"
+filename = "servux-fabric-26.3-0.12.2.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/zQhsx8KF/versions/azA4UG3T/servux-fabric-26.3-0.12.2.jar"
+hash-format = "sha512"
+hash = "ea630371c61502b2787fbdfc3c94f6bf218c7ca20e1579682af4122e431c538f8b11d239acb16f79203fa1d1d8e6d8479673e28d1432effa843729c0280208bc"
+
+[update]
+[update.modrinth]
+mod-id = "zQhsx8KF"
+version = "azA4UG3T"
