@@ -161,7 +161,7 @@
     },
     "toolSwitchIgnoredSlots": "",
     "toolSwapBetterEnchants": {
-      "enabled": false,
+      "enabled": true,
       "hotkey": {
         "keys": ""
       }
@@ -229,7 +229,7 @@
     "translationLanguage": "zh_cn",
     "translationMode": "vanilla",
     "weaponSwapBetterEnchants": {
-      "enabled": false,
+      "enabled": true,
       "hotkey": {
         "keys": ""
       }
@@ -429,9 +429,9 @@
     ],
     "entityTypeAttackRestrictionWhiteList": [],
     "entityWeaponMapping": [
-      "\u003cdefault\u003e \u003d\u003e minecraft:diamond_sword, minecraft:golden_sword, minecraft:iron_sword, minecraft:netherite_sword, minecraft:stone_sword, minecraft:wooden_sword",
+      "\u003cdefault\u003e \u003d\u003e minecraft:mace, minecraft:netherite_sword, minecraft:diamond_sword, minecraft:iron_sword, minecraft:copper_sword, minecraft:golden_sword, minecraft:stone_sword, minecraft:wooden_sword",
       "minecraft:end_crystal, minecraft:item_frame, minecraft:glow_item_frame, minecraft:leash_knot \u003d\u003e \u003cignore\u003e",
-      "minecraft:minecart, minecraft:chest_minecart, minecraft:furnace_minecart, minecraft:hopper_minecart, minecraft:hopper_minecart, minecraft:spawner_minecart, minecraft:tnt_minecart, minecraft:boat\u003d\u003e minecraft:diamond_axe, minecraft:golden_axe, minecraft:iron_axe, minecraft:netherite_axe, minecraft:stone_axe, minecraft:wooden_axe"
+      "minecraft:minecart, minecraft:chest_minecart, minecraft:furnace_minecart, minecraft:hopper_minecart, minecraft:hopper_minecart, minecraft:spawner_minecart, minecraft:tnt_minecart, minecraft:oak_boat, minecraft:oak_chest_boat, minecraft:spruce_boat, minecraft:spruce_chest_boat, minecraft:birch_boat, minecraft:birch_chest_boat, minecraft:jungle_boat, minecraft:jungle_chest_boat, minecraft:acacia_boat, minecraft:acacia_chest_boat, minecraft:cherry_boat, minecraft:cherry_chest_boat, minecraft:dark_oak_boat, minecraft:dark_oak_chest_boat, minecraft:pale_oak_boat, minecraft:pale_oak_chest_boat, minecraft:mangrove_boat, minecraft:mangrove_chest_boat, minecraft:bamboo_raft, minecraft:bamboo_chest_raft\u003d\u003e minecraft:mace, minecraft:netherite_axe, minecraft:diamond_axe, minecraft:iron_axe, minecraft:copper_axe, minecraft:golden_axe, minecraft:stone_axe, minecraft:wooden_axe"
     ],
     "fastPlacementItemListType": "blacklist",
     "fastRightClickBlockListType": "blacklist",
@@ -560,7 +560,7 @@
       }
     },
     "disableBossFog": {
-      "enabled": true,
+      "enabled": false,
       "hotkey": {
         "keys": ""
       }
@@ -971,7 +971,7 @@
     "tweakEntityReachOverride": false,
     "tweakEntityTypeAttackRestriction": false,
     "tweakEmptyShulkerBoxesStack": false,
-    "tweakExplosionReducedParticles": true,
+    "tweakExplosionReducedParticles": false,
     "tweakF3Cursor": false,
     "tweakFakeSneaking": false,
     "tweakFakeSneakPlacement": false,
@@ -1237,7 +1237,7 @@
       "keys": ""
     },
     "tweakRenderEdgeChunks": {
-      "keys": "U"
+      "keys": ""
     },
     "tweakRenderInvisibleEntities": {
       "keys": ""
