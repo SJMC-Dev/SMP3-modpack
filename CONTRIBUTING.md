@@ -22,14 +22,15 @@ git switch dev
 
 一次完整的改动是：**搭好测试环境 → 加 mod / 改配置 → 仓库中同步修改 → 推送到 `dev`**。
 
-推送到 `dev` 后，GitHub Actions 会自动把仓库内容刷新成 `release` 快照，玩家端 unsup 更新时就能拿到。
+推送到 `dev` 后，GitHub Actions 会自动刷新 packwiz 索引，并把快照 force push 到本仓库的 `release` 分支；
+Gitee 镜像 [icgnos/smp3-modpack](https://gitee.com/icgnos/smp3-modpack) 会自动从 GitHub 同步该分支，玩家端 unsup 更新时就能拿到。
 
 ### 1. 搭建客户端环境
 
 1. 准备一个 **Minecraft 26.3 + Fabric** 的客户端实例。
 2. 将仓库根目录的`unsup.jar` 和 `unsup.ini` 一起放进实例所在的文件夹。
 3. 在启动器的 JVM 参数里加上 `-javaagent:unsup.jar`。
-4. 正常启动游戏：unsup 会按 `unsup.ini` 里的 `source`（指向 `release` 分支的 `pack.toml`）拉取 mod 与配置并写入实例。
+4. 正常启动游戏：unsup 会按 `unsup.ini` 里的 `source`（指向 Gitee 上 `release` 分支的 `pack.toml`）拉取 mod 与配置并写入实例。
 5. 之后每次启动都会自动检查更新。
 
 ### 2. 搭建服务端环境
