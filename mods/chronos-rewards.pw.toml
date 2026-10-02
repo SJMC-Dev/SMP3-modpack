@@ -1,0 +1,13 @@
+name = "Chronos Rewards"
+filename = "chronos-rewards-1.1.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/J8xEuCyd/versions/UI0LltCN/chronos-rewards-1.1.0.jar"
+hash-format = "sha512"
+hash = "156dc105b63e53e241b8161bbe0693993c587ccb65aa835eba647e50491c2c6f8c0a039d7ccd3a7dac1191f0ed1dbadc717756859058b812b366bf85fe3414b2"
+
+[update]
+[update.modrinth]
+mod-id = "J8xEuCyd"
+version = "UI0LltCN"

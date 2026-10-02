@@ -1,0 +1,13 @@
+name = "Easy Shop Mod"
+filename = "Easy_Shop_Mod-10.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/U4fXl7jN/versions/r6CrCQf9/Easy_Shop_Mod-10.0.0.jar"
+hash-format = "sha512"
+hash = "3f67b010c2e52eda33a1fc97908ad2ea9afc37701436b126662d84466a1ea6a8d67fdd28bcec6138fe5e27f839f579435d0d3bd0dfd9457c4488623d6ad4ad02"
+
+[update]
+[update.modrinth]
+mod-id = "U4fXl7jN"
+version = "r6CrCQf9"
