@@ -1,2 +1,3 @@
 ﻿名称,id,类别,功能,运行环境,备注
 ,servux,辅助,增强 minihud litematica,server,
+,ferrite core,优化,减小内存,both,
