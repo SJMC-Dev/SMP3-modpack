@@ -1,16 +1,17 @@
-name: Refresh release index
+name: Refresh index
 
 on:
   push:
     branches:
-      - dev
+      - main
+      - release
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: refresh-release
+  group: refresh-index
   cancel-in-progress: false
 
 env:
@@ -21,10 +22,10 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout dev
+      - name: Checkout source branch
         uses: actions/checkout@v5
         with:
-          ref: dev
+          ref: ${{ github.ref_name }}
 
       - name: Restore packwiz from cache
         id: packwiz-cache
@@ -60,15 +61,14 @@ jobs:
       - name: Refresh packwiz index
         run: |
           set -euo pipefail
-          # packwiz refresh 要求根目录先有 index.toml 才会生成索引（dev 不跟踪该文件）
           touch index.toml
           packwiz refresh
 
-      - name: Commit snapshot and force push to release
+      - name: Commit snapshot and force push
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -f pack.toml index.toml
           git commit -m "Refresh index"
-          git push --force origin HEAD:release
+          git push --force origin "HEAD:build/${GITHUB_REF_NAME}"
