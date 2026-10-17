@@ -1,13 +1,13 @@
 name = "MezzConfig"
-filename = "mezz_config-26.3-fabric-0.6.3.jar"
+filename = "mezz_config-26.3-fabric-0.6.8.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/7tEfOcA7/versions/k9NIYAoR/mezz_config-26.3-fabric-0.6.3.jar"
+url = "https://cdn.modrinth.com/data/7tEfOcA7/versions/GKiA7PV4/mezz_config-26.3-fabric-0.6.8.jar"
 hash-format = "sha512"
-hash = "fcb388d602fe48fc67f6c8870ed005eb75956e77685bd03cac44f9548c559e8b5a40261a63905fd9644c877b75df39a2129a9a4413769602ed7fcfd864766fa2"
+hash = "cf0957c09bd0af1be7627cf68d1ceaad92bcb06c529ab85db5c26ae8a4950b236b7c62e5d096fc1b82c718578519b674b0970f8843c2d2178c14f3e63c28fd06"
 
 [update]
 [update.modrinth]
 mod-id = "7tEfOcA7"
-version = "k9NIYAoR"
+version = "GKiA7PV4"
