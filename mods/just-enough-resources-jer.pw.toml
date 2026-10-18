@@ -1,0 +1,13 @@
+name = "Just Enough Resources (JER)"
+filename = "JustEnoughResources-Fabric-26.3-1.11.0.46.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/uEfK2CXF/versions/y36zr5YF/JustEnoughResources-Fabric-26.3-1.11.0.46.jar"
+hash-format = "sha512"
+hash = "a06e02848478ae8a565f9b9c9dc7e10e0ab0c7e212703a0c819efc67c9cd2505d2f7be4bd266e5d8d0c178df855cdc79dd76bbb843af7d82a8653bf8b84b2c15"
+
+[update]
+[update.modrinth]
+mod-id = "uEfK2CXF"
+version = "y36zr5YF"
