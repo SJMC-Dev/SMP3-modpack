@@ -66,7 +66,7 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","file/Xaero地图汉化(MiniMap+WorldMap).zip","continuity:default","continuity:glass_pane_culling_fix"]
+resourcePacks:["serilum_mod_translations","vanilla","file/Xaero地图汉化(MiniMap+WorldMap).zip","file/XPlus Font Pack v1.1.1.zip","file/SodiumTranslations.zip","continuity:glass_pane_culling_fix","continuity:default","enderscape:improved_visuals","lambdabettergrass:default","file/XPlus 2.0 Basic ResourcePack v1.0.3.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
