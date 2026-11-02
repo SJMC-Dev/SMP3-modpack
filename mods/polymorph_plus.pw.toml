@@ -1,0 +1,13 @@
+name = "Polymorph+"
+filename = "polymorph_plus-fabric-1.4.2+26.3.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3uT4J18I/versions/XfTi6eDO/polymorph_plus-fabric-1.4.2%2B26.3.0.jar"
+hash-format = "sha512"
+hash = "e15e8184eaf84c3ebc1ccda5fcbd03cb1e61fb6a6be9a433bc237fb63bb1fc05f9d072b4c227bff1f08df5a86947d106b8625c24328bb93445438ed3c3bd1771"
+
+[update]
+[update.modrinth]
+mod-id = "3uT4J18I"
+version = "XfTi6eDO"

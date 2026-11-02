@@ -1,0 +1,13 @@
+name = "Crafting Tweaks"
+filename = "craftingtweaks-fabric-26.3-26.3.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DMu0oBKf/versions/EYGdRTcA/craftingtweaks-fabric-26.3-26.3.0.1.jar"
+hash-format = "sha512"
+hash = "e980162e7a5c0e82f022e0b6a39ea289cab4e6e7c4bbaf726597e942f3b6521948214759ac8f5d34302bd67967f6bcb75271fc03d6ec9981d66f164a930a678f"
+
+[update]
+[update.modrinth]
+mod-id = "DMu0oBKf"
+version = "EYGdRTcA"

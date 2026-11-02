@@ -1,0 +1,13 @@
+name = "Better Minecart With Furnace"
+filename = "better-minecart-with-furnace-1.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "34072e1fc1ab0845ddc924f1c877f5589edf5d03"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9174423
+project-id = 1733212

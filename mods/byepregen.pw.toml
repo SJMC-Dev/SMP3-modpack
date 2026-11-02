@@ -1,0 +1,13 @@
+name = "ByePregen"
+filename = "byepregen-fabric-26.3-1.1.3.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DWIJb73A/versions/BYmtS3gU/byepregen-fabric-26.3-1.1.3.5.jar"
+hash-format = "sha512"
+hash = "e8dc2afbb0c3dfd6c0ce5723be79520d852aeb7361880f8fd90c62e4e2ce44be628fbe5eaec0357e5cbccd9d9c54e511505b6566f5044f38f2c40032dc3c427e"
+
+[update]
+[update.modrinth]
+mod-id = "DWIJb73A"
+version = "BYmtS3gU"

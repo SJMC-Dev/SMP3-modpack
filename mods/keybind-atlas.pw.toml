@@ -1,0 +1,13 @@
+name = "Keybind Atlas"
+filename = "KeybindAtlas-v2.3.0-mc26.3-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/fokFjwwh/versions/MKohEWfB/KeybindAtlas-v2.3.0-mc26.3-fabric.jar"
+hash-format = "sha512"
+hash = "dceeb173dc19ee024d7b19e5b74e8d0c33c8b3aee4778c2fa77579f79884725e9bd05195f0fda1494fe2f29177761c800180e3e6dc30380bce4105e18d4d5836"
+
+[update]
+[update.modrinth]
+mod-id = "fokFjwwh"
+version = "MKohEWfB"

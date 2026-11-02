@@ -1,0 +1,13 @@
+name = "Dimension Link"
+filename = "dimensionlink-fabric-0.0.6+26.3.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/mgRpdg8r/versions/wRcVExCz/dimensionlink-fabric-0.0.6%2B26.3.jar"
+hash-format = "sha512"
+hash = "2416aa4096efbcbcd203314f10523a5fd29c7d20c360fcea3c345fa9a6ff4e4804e78655ced60f4d7b025a148a3bfb5d668353ea8e29149c9f07d996a98d3008"
+
+[update]
+[update.modrinth]
+mod-id = "mgRpdg8r"
+version = "wRcVExCz"

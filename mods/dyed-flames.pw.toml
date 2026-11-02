@@ -1,0 +1,13 @@
+name = "Dyed Flames"
+filename = "dyedflames-v26.3.1-mc26.3.x+fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/66H5fc9R/versions/SwzR0jXI/dyedflames-v26.3.1-mc26.3.x%2Bfabric.jar"
+hash-format = "sha512"
+hash = "31faa118a56baa832832f49cd4f063bc1415cd8f02bf3d0918f4f26e576278c11d5714caaf062811c47f1a20618525936f7f52734261f19a37932e439f516c2e"
+
+[update]
+[update.modrinth]
+mod-id = "66H5fc9R"
+version = "SwzR0jXI"

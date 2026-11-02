@@ -1,0 +1,13 @@
+name = "Flash Carts Enhanced"
+filename = "Flash Carts Enhanced-1.4.3+26.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "76bcd7d40953edbdd62495c9a2ed96c1fce3c070"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9097074
+project-id = 1733218

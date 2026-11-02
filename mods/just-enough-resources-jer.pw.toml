@@ -1,0 +1,13 @@
+name = "Just Enough Resources (JER)"
+filename = "JustEnoughResources-Fabric-26.3-1.11.0.58.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/uEfK2CXF/versions/QbBTuobs/JustEnoughResources-Fabric-26.3-1.11.0.58.jar"
+hash-format = "sha512"
+hash = "04d54c786167e6ed7c65bb68f017d7120f1970e8083be02a95c99bd8d379fb20982e20c510193a66da920e622545248929a4335bed0343814c2f18eedccde585"
+
+[update]
+[update.modrinth]
+mod-id = "uEfK2CXF"
+version = "QbBTuobs"

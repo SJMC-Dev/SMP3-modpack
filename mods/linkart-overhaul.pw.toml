@@ -1,0 +1,13 @@
+name = "Linkart Overhaul"
+filename = "Linkart Overhaul-6.3.8+26.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5958e0905b71d580f3d654ce8934549bfa2bdcc2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9097002
+project-id = 1733202

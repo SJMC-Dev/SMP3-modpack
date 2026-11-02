@@ -1,0 +1,13 @@
+name = "Worlds: Multiverse for Fabric"
+filename = "worlds-1.11.0+26.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rDdf0tz6/versions/lN6ybwjd/worlds-1.11.0%2B26.3.jar"
+hash-format = "sha512"
+hash = "8822984463990e976ba99fd8648cac5cddc6f9a036cc5aeed409bded3c78939057b5b630763e0da9d323feb73998c33cd84f7e0abc95a618edca8ae58613c114"
+
+[update]
+[update.modrinth]
+mod-id = "rDdf0tz6"
+version = "lN6ybwjd"
