@@ -1,0 +1,13 @@
+name = "Flan"
+filename = "flan-26.3-1.12.8.b-fabric.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/Si383TIH/versions/dAcEMeRZ/flan-26.3-1.12.8.b-fabric.jar"
+hash-format = "sha512"
+hash = "5d389874be2853c79652ee18fd52a35a9789ecf2b46e140a19d0ce7291ce0b99f905ab17bb1e5a7b55283d80aa82f5983cf595463f23e2ac5c96bef987ec256f"
+
+[update]
+[update.modrinth]
+mod-id = "Si383TIH"
+version = "dAcEMeRZ"
