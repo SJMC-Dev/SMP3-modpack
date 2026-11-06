@@ -1,0 +1,20 @@
+{
+  "borders": [
+    {
+      "enable": true,
+      "dimension_id": "fuji:example",
+      "border": {
+        "center_x": 0.0,
+        "center_z": 0.0,
+        "size": 9.999968E13,
+        "size_lerp_time": 0,
+        "size_lerp_target": 0.0,
+        "warning_blocks": 5,
+        "warning_time": 15,
+        "damage_per_block": 0.2,
+        "safe_zone": 5.0
+      }
+    }
+  ],
+  "MOD_VERSION": "14.12.0"
+}

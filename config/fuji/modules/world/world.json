@@ -1,0 +1,62 @@
+{
+  "dimension_list": [
+    {
+      "auto_load_on_server_startup": true,
+      "dimension": "fuji:overworld",
+      "world_preset_type": null,
+      "dimension_type": "minecraft:overworld",
+      "chunk_generator_type": "NOISE",
+      "chunk_generator_parameters": "",
+      "seed": -1047460443238200544,
+      "difficulty": "NORMAL",
+      "should_tick_time": true,
+      "time_of_day": 6000,
+      "weather": {
+        "sunny_time": 0,
+        "is_raining": false,
+        "rain_time": 0,
+        "is_thundering": false,
+        "thunder_time": 0
+      }
+    },
+    {
+      "auto_load_on_server_startup": true,
+      "dimension": "fuji:the_nether",
+      "world_preset_type": null,
+      "dimension_type": "minecraft:the_nether",
+      "chunk_generator_type": "NOISE",
+      "chunk_generator_parameters": "",
+      "seed": -2517302091030555988,
+      "difficulty": "NORMAL",
+      "should_tick_time": true,
+      "time_of_day": 6000,
+      "weather": {
+        "sunny_time": 0,
+        "is_raining": false,
+        "rain_time": 0,
+        "is_thundering": false,
+        "thunder_time": 0
+      }
+    },
+    {
+      "auto_load_on_server_startup": true,
+      "dimension": "fuji:the_end",
+      "world_preset_type": null,
+      "dimension_type": "minecraft:the_end",
+      "chunk_generator_type": "NOISE",
+      "chunk_generator_parameters": "",
+      "seed": 2483968782037537012,
+      "difficulty": "NORMAL",
+      "should_tick_time": true,
+      "time_of_day": 6000,
+      "weather": {
+        "sunny_time": 0,
+        "is_raining": false,
+        "rain_time": 0,
+        "is_thundering": false,
+        "thunder_time": 0
+      }
+    }
+  ],
+  "MOD_VERSION": "14.12.0"
+}

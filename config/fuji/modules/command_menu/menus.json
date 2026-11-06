@@ -1,0 +1,158 @@
+{
+  "menus": {
+    "main-menu": {
+      "title": "<gold>服务器菜单",
+      "lines": 3,
+      "close_menu_on_clicked": false,
+      "commands": {
+        "on_open_commands": [],
+        "on_closed_commands": []
+      },
+      "slots": [
+        {
+          "index": 11,
+          "other_indexes": [],
+          "fill_blank_indexes": false,
+          "item": "minecraft:clock",
+          "count": 1,
+          "display_name": "<gold>每日签到",
+          "hide_tooltip": false,
+          "glow": false,
+          "lore": [
+            "<gray>点击打开签到界面",
+            "<yellow>执行 /rewards"
+          ],
+          "view_requirement": {
+            "level": 0,
+            "string": null
+          },
+          "commands": {
+            "on_left_click_commands": [
+              "run as player %player:name% rewards"
+            ],
+            "on_left_shift_click_commands": [],
+            "on_right_click_commands": [],
+            "on_right_shift_click_commands": [],
+            "on_middle_click_commands": []
+          }
+        },
+        {
+          "index": 15,
+          "other_indexes": [],
+          "fill_blank_indexes": false,
+          "item": "minecraft:emerald",
+          "count": 1,
+          "display_name": "<green>商店",
+          "hide_tooltip": false,
+          "glow": false,
+          "lore": [
+            "<gray>点击进入商店"
+          ],
+          "view_requirement": {
+            "level": 0,
+            "string": null
+          },
+          "commands": {
+            "on_left_click_commands": [
+              "command-menu open %player:name% shop-menu"
+            ],
+            "on_left_shift_click_commands": [],
+            "on_right_click_commands": [],
+            "on_right_shift_click_commands": [],
+            "on_middle_click_commands": []
+          }
+        }
+      ]
+    },
+    "shop-menu": {
+      "title": "<green>商店",
+      "lines": 3,
+      "close_menu_on_clicked": false,
+      "commands": {
+        "on_open_commands": [],
+        "on_closed_commands": []
+      },
+      "slots": [
+        {
+          "index": 11,
+          "other_indexes": [],
+          "fill_blank_indexes": false,
+          "item": "minecraft:dirt",
+          "count": 1,
+          "display_name": "<green>购买泥土",
+          "hide_tooltip": false,
+          "glow": false,
+          "lore": [
+            "<gray>花费 1 通宝获得 1 个泥土",
+            "<gold>当前通宝：%fuji:balance fuji:tongbao%"
+          ],
+          "view_requirement": {
+            "level": 0,
+            "string": null
+          },
+          "commands": {
+            "on_left_click_commands": [
+              "IF has-currency? %player:name% fuji:tongbao 1 THEN chain economy take %player:name% fuji:tongbao 1 chain give %player:name% minecraft:dirt 1 ELSE send-message %player:name% <red>通宝不足，需要 1 通宝。"
+            ],
+            "on_left_shift_click_commands": [],
+            "on_right_click_commands": [],
+            "on_right_shift_click_commands": [],
+            "on_middle_click_commands": []
+          }
+        },
+        {
+          "index": 15,
+          "other_indexes": [],
+          "fill_blank_indexes": false,
+          "item": "minecraft:coarse_dirt",
+          "count": 1,
+          "display_name": "<yellow>出售泥土",
+          "hide_tooltip": false,
+          "glow": false,
+          "lore": [
+            "<gray>交出 1 个泥土获得 1 通宝",
+            "<gold>当前通宝：%fuji:balance fuji:tongbao%"
+          ],
+          "view_requirement": {
+            "level": 0,
+            "string": null
+          },
+          "commands": {
+            "on_left_click_commands": [
+              "IF has-item? %player:name% minecraft:dirt 1 THEN chain clear %player:name% minecraft:dirt 1 chain economy give %player:name% fuji:tongbao 1 ELSE send-message %player:name% <red>你没有泥土。"
+            ],
+            "on_left_shift_click_commands": [],
+            "on_right_click_commands": [],
+            "on_right_shift_click_commands": [],
+            "on_middle_click_commands": []
+          }
+        },
+        {
+          "index": 22,
+          "other_indexes": [],
+          "fill_blank_indexes": false,
+          "item": "minecraft:arrow",
+          "count": 1,
+          "display_name": "<gray>返回主菜单",
+          "hide_tooltip": false,
+          "glow": false,
+          "lore": [],
+          "view_requirement": {
+            "level": 0,
+            "string": null
+          },
+          "commands": {
+            "on_left_click_commands": [
+              "command-menu open %player:name% main-menu"
+            ],
+            "on_left_shift_click_commands": [],
+            "on_right_click_commands": [],
+            "on_right_shift_click_commands": [],
+            "on_middle_click_commands": []
+          }
+        }
+      ]
+    }
+  },
+  "MOD_VERSION": "14.12.0"
+}

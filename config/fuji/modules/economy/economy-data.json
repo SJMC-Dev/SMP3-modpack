@@ -1,0 +1,18 @@
+{
+  "currencies": [
+    {
+      "currency_id": "fuji:tongbao",
+      "accounts": [
+        {
+          "owner_name": "111",
+          "balance": 400
+        },
+        {
+          "owner_name": "123",
+          "balance": 1000
+        }
+      ]
+    }
+  ],
+  "MOD_VERSION": "14.12.0"
+}

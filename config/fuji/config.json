@@ -1,0 +1,498 @@
+{
+  "core": {
+    "debug": {
+      "disable_all_modules": false,
+      "print_debug_messages_in_console": false,
+      "print_user_guide_in_console": true
+    },
+    "backup": {
+      "max_slots": 1,
+      "skip": [
+        "modules/head/head-data"
+      ]
+    },
+    "language": {
+      "default_language": "zh_CN",
+      "language_value_common_prefix": "<orange>➜</orange> ",
+      "validator": {
+        "validate_arguments": true
+      }
+    },
+    "command": {
+      "assistant": {
+        "enable": true,
+        "requirement": {
+          "level_permission": 0
+        }
+      }
+    },
+    "permission": {
+      "all_commands_require_level_4_permission_to_use_by_default": false
+    },
+    "scheduler": {
+      "logger_level": "WARN"
+    },
+    "formatter": {
+      "date_formatter": "yyyy-MM-dd HH:mm:ss"
+    },
+    "document": {
+      "always_use_built_in_doc_strings": true
+    }
+  },
+  "modules": {
+    "fuji": {
+      "enable": true
+    },
+    "language": {
+      "enable": true
+    },
+    "chat": {
+      "enable": true,
+      "style": {
+        "enable": true
+      },
+      "display": {
+        "enable": true
+      },
+      "history": {
+        "enable": true
+      },
+      "trigger": {
+        "enable": true
+      },
+      "replace": {
+        "enable": true
+      },
+      "mention": {
+        "enable": true
+      },
+      "spy": {
+        "enable": false
+      }
+    },
+    "placeholder": {
+      "enable": false
+    },
+    "predicate": {
+      "enable": true
+    },
+    "motd": {
+      "enable": false
+    },
+    "nametag": {
+      "enable": false
+    },
+    "tab": {
+      "enable": false
+    },
+    "tpa": {
+      "enable": false
+    },
+    "back": {
+      "enable": false
+    },
+    "home": {
+      "enable": true
+    },
+    "pvp": {
+      "enable": false
+    },
+    "afk": {
+      "enable": false,
+      "effect": {
+        "enable": true
+      }
+    },
+    "rtp": {
+      "enable": true
+    },
+    "works": {
+      "enable": false
+    },
+    "deathlog": {
+      "enable": false
+    },
+    "view": {
+      "enable": false
+    },
+    "echo": {
+      "enable": true,
+      "send_message": {
+        "enable": true
+      },
+      "send_broadcast": {
+        "enable": true
+      },
+      "send_actionbar": {
+        "enable": true
+      },
+      "send_title": {
+        "enable": true
+      },
+      "send_toast": {
+        "enable": true
+      },
+      "send_chat": {
+        "enable": true
+      },
+      "send_bossbar": {
+        "enable": true
+      },
+      "send_custom": {
+        "enable": true
+      },
+      "send_console": {
+        "enable": true
+      },
+      "send_dialog": {
+        "enable": true
+      }
+    },
+    "functional": {
+      "enable": false,
+      "workbench": {
+        "enable": false
+      },
+      "enchantment": {
+        "enable": false
+      },
+      "grindstone": {
+        "enable": false
+      },
+      "stonecutter": {
+        "enable": false
+      },
+      "anvil": {
+        "enable": false
+      },
+      "cartography": {
+        "enable": false
+      },
+      "enderchest": {
+        "enable": false
+      },
+      "smithing": {
+        "enable": false
+      },
+      "loom": {
+        "enable": false
+      }
+    },
+    "economy": {
+      "enable": true
+    },
+    "system_message": {
+      "enable": false
+    },
+    "cleaner": {
+      "enable": false
+    },
+    "world": {
+      "enable": true,
+      "border": {
+        "enable": true
+      }
+    },
+    "skin": {
+      "enable": false
+    },
+    "title": {
+      "enable": true
+    },
+    "leaderboard": {
+      "enable": false
+    },
+    "jail": {
+      "enable": false
+    },
+    "kit": {
+      "enable": false
+    },
+    "rank": {
+      "enable": false
+    },
+    "head": {
+      "enable": false
+    },
+    "color": {
+      "enable": false,
+      "sign": {
+        "enable": true
+      },
+      "anvil": {
+        "enable": true
+      }
+    },
+    "sit": {
+      "enable": false
+    },
+    "sign_editor": {
+      "enable": false
+    },
+    "teleport_warmup": {
+      "enable": false
+    },
+    "temp_ban": {
+      "enable": false
+    },
+    "anti_build": {
+      "enable": false
+    },
+    "warning": {
+      "enable": false
+    },
+    "maintenance": {
+      "enable": false
+    },
+    "command_scheduler": {
+      "enable": false
+    },
+    "command_permission": {
+      "enable": false
+    },
+    "command_rewrite": {
+      "enable": true
+    },
+    "command_alias": {
+      "enable": false
+    },
+    "command_bundle": {
+      "enable": true
+    },
+    "command_attachment": {
+      "enable": false
+    },
+    "command_interactive": {
+      "enable": false
+    },
+    "command_warmup": {
+      "enable": false
+    },
+    "command_cooldown": {
+      "enable": false
+    },
+    "command_toolbox": {
+      "enable": true,
+      "bed": {
+        "enable": false
+      },
+      "extinguish": {
+        "enable": false
+      },
+      "feed": {
+        "enable": false
+      },
+      "fly": {
+        "enable": false
+      },
+      "god": {
+        "enable": false
+      },
+      "hat": {
+        "enable": false
+      },
+      "heal": {
+        "enable": false
+      },
+      "itemname": {
+        "enable": false
+      },
+      "lore": {
+        "enable": false
+      },
+      "more": {
+        "enable": false
+      },
+      "ping": {
+        "enable": false
+      },
+      "realname": {
+        "enable": false
+      },
+      "nickname": {
+        "enable": false
+      },
+      "repair": {
+        "enable": false
+      },
+      "reply": {
+        "enable": false
+      },
+      "seen": {
+        "enable": false
+      },
+      "suicide": {
+        "enable": false
+      },
+      "top": {
+        "enable": false
+      },
+      "down": {
+        "enable": false
+      },
+      "trashcan": {
+        "enable": false
+      },
+      "tppos": {
+        "enable": false
+      },
+      "tphere": {
+        "enable": false
+      },
+      "warp": {
+        "enable": true
+      },
+      "burn": {
+        "enable": false
+      },
+      "help_op": {
+        "enable": false
+      },
+      "near": {
+        "enable": false
+      },
+      "jump": {
+        "enable": false
+      },
+      "compass": {
+        "enable": false
+      },
+      "glow": {
+        "enable": false
+      },
+      "freeze": {
+        "enable": false
+      },
+      "rules": {
+        "enable": false
+      },
+      "speed": {
+        "enable": false
+      },
+      "disconnect": {
+        "enable": false
+      },
+      "delete": {
+        "enable": false
+      }
+    },
+    "command_spy": {
+      "enable": false
+    },
+    "command_event": {
+      "enable": true
+    },
+    "command_debug": {
+      "enable": false
+    },
+    "command_advice": {
+      "enable": false
+    },
+    "command_state": {
+      "enable": false
+    },
+    "command_menu": {
+      "enable": true
+    },
+    "command_meta": {
+      "enable": true,
+      "run": {
+        "enable": true
+      },
+      "for_each": {
+        "enable": false
+      },
+      "one_of": {
+        "enable": false
+      },
+      "chain": {
+        "enable": true
+      },
+      "IF": {
+        "enable": true
+      },
+      "NOT": {
+        "enable": false
+      },
+      "AND": {
+        "enable": false
+      },
+      "OR": {
+        "enable": false
+      },
+      "nop": {
+        "enable": false
+      },
+      "delay": {
+        "enable": false
+      },
+      "json": {
+        "enable": false
+      },
+      "attachment": {
+        "enable": false
+      },
+      "shell": {
+        "enable": false
+      },
+      "when_online": {
+        "enable": false
+      }
+    },
+    "top_chunks": {
+      "enable": false
+    },
+    "world_downloader": {
+      "enable": false
+    },
+    "whitelist": {
+      "enable": false
+    },
+    "profiler": {
+      "enable": false
+    },
+    "launcher": {
+      "enable": false
+    },
+    "multiplier": {
+      "enable": false
+    },
+    "disabler": {
+      "enable": false,
+      "chat_speed_disabler": {
+        "enable": false
+      },
+      "move_speed_disabler": {
+        "enable": false
+      },
+      "move_wrongly_disabler": {
+        "enable": false
+      },
+      "max_player_disabler": {
+        "enable": false
+      }
+    },
+    "queue": {
+      "enable": false
+    },
+    "gameplay": {
+      "enable": false,
+      "multi_obsidian_platform": {
+        "enable": false
+      }
+    },
+    "doctor": {
+      "enable": true
+    },
+    "tester": {
+      "enable": false
+    },
+    "document": {
+      "enable": false
+    },
+    "evaluator": {
+      "enable": false
+    }
+  },
+  "MOD_VERSION": "14.12.0"
+}

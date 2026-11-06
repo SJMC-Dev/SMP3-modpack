@@ -1,0 +1,23 @@
+{
+  "provider_icon": "minecraft:cherry_sapling",
+  "balance_top_page_size": 10,
+  "currencies": [
+    {
+      "currency_id": "fuji:tongbao",
+      "currency_name": "<gold>通宝",
+      "currency_icon_item": "minecraft:iron_pickaxe",
+      "default_face_balance": 0.0,
+      "format_value_string": "%.0f",
+      "format_value_text": "<gold>%.0f 通宝"
+    },
+    {
+      "currency_id": "fuji:coffee_stamp",
+      "currency_name": "<aqua>咖啡券",
+      "currency_icon_item": "minecraft:paper",
+      "default_face_balance": 0.0,
+      "format_value_string": "%.0f",
+      "format_value_text": "<aqua>%.0f 咖啡券"
+    }
+  ],
+  "MOD_VERSION": "14.12.0"
+}

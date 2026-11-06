@@ -1,0 +1,11 @@
+{
+  "mention_player": {
+    "sound": "entity.experience_orb.pickup",
+    "volume": 100.0,
+    "pitch": 1.0,
+    "repeat_count": 3,
+    "interval_ms": 1000
+  },
+  "mention_format": "<aqua>@%s</aqua>",
+  "MOD_VERSION": "14.12.0"
+}

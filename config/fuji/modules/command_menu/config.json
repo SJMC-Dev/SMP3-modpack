@@ -1,0 +1,9 @@
+{
+  "onSneakingAndSwapHandsEvent": {
+    "enable": false,
+    "commands": [
+      "command-menu open %player:name% example-menu"
+    ]
+  },
+  "MOD_VERSION": "14.12.0"
+}

@@ -1,0 +1,41 @@
+{
+  "rules": [
+    {
+      "regex": "\\?",
+      "replacement": "help"
+    },
+    {
+      "regex": "^/?rtp$",
+      "replacement": "paid-rtp"
+    },
+    {
+      "regex": "^/?rtp(\\s+(?!others(?:\\s|$)).*)$",
+      "replacement": "paid-rtp$1"
+    },
+    {
+      "regex": "^(.*\\brun\\s+)rtp$",
+      "replacement": "$1paid-rtp"
+    },
+    {
+      "regex": "^(.*\\brun\\s+)rtp(\\s+(?!others(?:\\s|$)).*)$",
+      "replacement": "$1paid-rtp$2"
+    },
+    {
+      "regex": "^/?home set(\\s+\\S+).*$",
+      "replacement": "fuji-home-set$1"
+    },
+    {
+      "regex": "^(.*\\brun\\s+)home\\s+set(\\s+\\S+).*$",
+      "replacement": "$1fuji-home-set$2"
+    },
+    {
+      "regex": "^/?home unset(\\s+.*)$",
+      "replacement": "fuji-home-unset$1"
+    },
+    {
+      "regex": "^(.*\\brun\\s+)home\\s+unset(\\s+.*)$",
+      "replacement": "$1fuji-home-unset$2"
+    }
+  ],
+  "MOD_VERSION": "14.12.0"
+}

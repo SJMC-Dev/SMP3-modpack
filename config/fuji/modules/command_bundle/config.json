@@ -1,0 +1,462 @@
+{
+  "bundle_commands": [
+    {
+      "enable": true,
+      "document": "This command is used to test the `optional argument`.",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "my-command a-command-with-optional-arg <int int-arg-name> [str str-arg-name this is the default value]",
+      "body": [
+        "say hello %player:name%",
+        "say int is $int-arg-name",
+        "say str is $str-arg-name"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command is used to test the `literal argument` and `required argument`.",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "my-command a-command-with-required-arg first-literal second-literal <str str-arg-name>",
+      "body": [
+        "say hello %player:name%",
+        "say str is $str-arg-name"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command is used to test the `greedy string` argument type.",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "my-command a-command-with-a-greedy-string <int int-arg-name> first-literal [greedy-string greedy-string-arg-name this is the default value]",
+      "body": [
+        "say hello %player:name%",
+        "say int is $int-arg-name",
+        "say str is $greedy-string-arg-name"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command is used to test the `literal argument`, `required argument` and `optional argument`.",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "my-command a-command-with-all-types-of-args <int int-arg-name> first-literal [str str-arg-name the default value can contains placeholder %player:name% in %world:name%]",
+      "body": [
+        "say hello %player:name%",
+        "say int is $int-arg-name",
+        "say str is $str-arg-name"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command is an alias for `/gamemode`",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "gm <gamemode gamemode-arg>",
+      "body": [
+        "run as player %player:name% gamemode $gamemode-arg"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command is an alias for `/gamemode creative`",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "gmc",
+      "body": [
+        "run as player %player:name% gamemode creative"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command is an alias for `/gamemode survival`",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "gms",
+      "body": [
+        "run as player %player:name% gamemode survival"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command is an alias for `/gamemode spectator`",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "gmsp",
+      "body": [
+        "run as player %player:name% gamemode spectator"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command is an alias for `/weather clear`",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "sun",
+      "body": [
+        "run as player %player:name% weather clear"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command is an alias for `/weather rain`",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "rain",
+      "body": [
+        "run as player %player:name% weather rain"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command is an alias for `/weather thunder`",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "thunder",
+      "body": [
+        "run as player %player:name% weather thunder"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command is an alias for `/time set day`",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "day",
+      "body": [
+        "run as player %player:name% time set day"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command is an alias for `/time set night`",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "night",
+      "body": [
+        "run as player %player:name% time set night"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command is an alias for `/time set midnight`",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "midnight",
+      "body": [
+        "run as player %player:name% time set midnight"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command is an alias for `/time set noon`",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "noon",
+      "body": [
+        "run as player %player:name% time set noon"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command is an alias for `/data get entity`",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "nbt entity <entity target>",
+      "body": [
+        "run as fake-op %player:name% data get entity $target"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command is an alias for `/data get block`",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "nbt block <block-pos target>",
+      "body": [
+        "run as fake-op %player:name% data get block $target"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command is an alias for `/data get entity @s SelectedItem`",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "nbt item",
+      "body": [
+        "run as fake-op %player:name% data get entity %player:name% SelectedItem"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command is an easter egg for `/plugins` in Bukkit.",
+      "requirement": {
+        "level": 0,
+        "string": null
+      },
+      "head": "plugins",
+      "body": [
+        "send-message %player:name% Server Plugins (0): "
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command is an easter egg for `/icanhasbukkit` in Bukkit.",
+      "requirement": {
+        "level": 0,
+        "string": null
+      },
+      "head": "icanhasbukkit",
+      "body": [
+        "send-message %player:name% <i>Checking version, please wait...",
+        "delay 2 send-message %player:name% This server is running Bukkit version (MC: %server:version%)",
+        "delay 3 send-message %player:name% <green>You are running the latest version"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command summons an entity with specified entity type, with an initial motion.",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "shoot <entity-type entity-type-arg-name>",
+      "body": [
+        "execute as %player:name% run summon $entity-type-arg-name ~ ~1 ~ {ExplosionPower:4,Motion:[3.0,0.0,0.0]}"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command summons a lightning_bolt entity.",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "strike",
+      "body": [
+        "execute as %player:name% at @s run summon lightning_bolt ^ ^ ^32"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command applies the `unbreakable` enchantment for the item in hand.",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "unbreakable",
+      "body": [
+        "run as player %player:name% enchant %player:name% minecraft:unbreaking"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command modifies your movement_speed attribute.",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "move-speed set <double double-arg>",
+      "body": [
+        "run as player %player:name% attribute %player:name% minecraft:generic.movement_speed base set $double-arg"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command modifies your movement_speed attribute.",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "move-speed reset",
+      "body": [
+        "run as player %player:name% attribute %player:name% minecraft:generic.movement_speed base set 0.10000000149011612"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command will introduce yourself to others.",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "introduce-me",
+      "body": [
+        "run as fake-op %player:name% me i am %player:name%"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command will roll a random dice.",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "dice",
+      "body": [
+        "say %player:name% just roll out %fuji:random 1 7% points."
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command will give `all` recipes to the player.",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "obtain-all-recipes",
+      "body": [
+        "run as fake-op %player:name% recipe give %player:name% *"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command will give the skull of specified player.",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "skull <offline-player offline-player-arg>",
+      "body": [
+        "give %player:name% minecraft:player_head[minecraft:profile=$offline-player-arg]"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command will print the UUID of specified player.",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "uuid <player target>",
+      "body": [
+        "run as fake-op $target send-message %player:name% <yellow>The UUID of player $target is %fuji:escape player:uuid 2%"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command does nothing, and returns `SUCCESS` as its return value.",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "success",
+      "body": [
+        "nop"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This command does nothing, and returns `FAILURE` as its return value.",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "failure",
+      "body": [
+        "NOT nop"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "This is a custom predicate command.",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "is-rich? <player target>",
+      "body": [
+        "say The commands are executed one by one from up to down.",
+        "say The last command's return value is the final return value of the entire bundle command.",
+        "has-item? $target minecraft:gold_ingot 2048"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "打开服务器主菜单。",
+      "requirement": {
+        "level": 0,
+        "string": null
+      },
+      "head": "menu",
+      "body": [
+        "command-menu open %player:name% main-menu"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "按玩家当前所在维度收取通宝后执行当前维度的随机传送。",
+      "requirement": {
+        "level": 0,
+        "string": null
+      },
+      "head": "paid-rtp",
+      "body": [
+        "IF is-in-world? %player:name% minecraft:overworld THEN chain has-currency? %player:name% fuji:tongbao 3 chain run as player %player:name% rtp chain economy take %player:name% fuji:tongbao 3 ELSE chain has-currency? %player:name% fuji:tongbao 5 chain run as player %player:name% rtp chain economy take %player:name% fuji:tongbao 5"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "设置家，每人最多两个。",
+      "requirement": {
+        "level": 0,
+        "string": null
+      },
+      "head": "fuji-home-set <home-name home>",
+      "body": [
+        "scoreboard players add %player:name% fuji_home_count 0",
+        "IF execute if score %player:name% fuji_home_count matches ..1 THEN chain run as player %player:name% home set $home chain scoreboard players add %player:name% fuji_home_count 1 ELSE send-message %player:name% <red>你最多只能设置 2 个家。"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "删除家并减少计数。",
+      "requirement": {
+        "level": 0,
+        "string": null
+      },
+      "head": "fuji-home-unset <home-name home>",
+      "body": [
+        "scoreboard players add %player:name% fuji_home_count 0",
+        "chain run as player %player:name% home unset $home chain scoreboard players remove %player:name% fuji_home_count 1"
+      ]
+    }
+  ],
+  "MOD_VERSION": "14.12.0"
+}

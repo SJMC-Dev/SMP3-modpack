@@ -1,0 +1,27 @@
+{
+  "replace": {
+    "rules": [
+      {
+        "regex": "(?<=^|\\s)item(?=\\s|$)",
+        "replacement": "%fuji:item%"
+      },
+      {
+        "regex": "(?<=^|\\s)inv(?=\\s|$)",
+        "replacement": "%fuji:inv%"
+      },
+      {
+        "regex": "(?<=^|\\s)ender(?=\\s|$)",
+        "replacement": "%fuji:ender%"
+      },
+      {
+        "regex": "(?<=^|\\s)pos(?=\\s|$)",
+        "replacement": "%fuji:pos%"
+      },
+      {
+        "regex": "(?<=^|\\s)uuid(?=\\s|$)",
+        "replacement": "<green>My uuid is %player:uuid%</green>"
+      }
+    ]
+  },
+  "MOD_VERSION": "14.12.0"
+}

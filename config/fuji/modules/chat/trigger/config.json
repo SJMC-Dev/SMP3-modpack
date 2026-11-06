@@ -1,0 +1,36 @@
+{
+  "triggers": [
+    {
+      "chat_string_regex": "magic",
+      "commands": [
+        "say magic!"
+      ]
+    },
+    {
+      "chat_string_regex": "i am (.+)",
+      "commands": [
+        "say You just said: $0",
+        "say Hello $1"
+      ]
+    },
+    {
+      "chat_string_regex": "(?<=^|\\s)item(?=\\s|$)",
+      "commands": [
+        "run as fake-op %player:name% chat display item"
+      ]
+    },
+    {
+      "chat_string_regex": "(?<=^|\\s)inv(?=\\s|$)",
+      "commands": [
+        "run as fake-op %player:name% chat display inv"
+      ]
+    },
+    {
+      "chat_string_regex": "(?<=^|\\s)ender(?=\\s|$)",
+      "commands": [
+        "run as fake-op %player:name% chat display ender"
+      ]
+    }
+  ],
+  "MOD_VERSION": "14.12.0"
+}

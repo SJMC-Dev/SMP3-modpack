@@ -1,0 +1,31 @@
+{
+  "default_active_title_id": "resident",
+  "no_active_title_text": "<grey>[None]",
+  "title_descriptors": [
+    {
+      "id": "resident",
+      "item": "minecraft:grass_block",
+      "display_name": "<dark_green>[Resident]",
+      "lore": [
+        "<yellow>The title for a resident."
+      ]
+    },
+    {
+      "id": "farmer",
+      "item": "minecraft:iron_hoe",
+      "display_name": "<green>[Farmer]",
+      "lore": [
+        "<yellow>The title for a farmer."
+      ]
+    },
+    {
+      "id": "fisher",
+      "item": "minecraft:fishing_rod",
+      "display_name": "<blue>[Fisher]",
+      "lore": [
+        "<yellow>The title for a fisher."
+      ]
+    }
+  ],
+  "MOD_VERSION": "14.12.0"
+}

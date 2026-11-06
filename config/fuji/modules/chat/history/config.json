@@ -1,0 +1,22 @@
+{
+  "max_chat_history_size": 50,
+  "message_type_acceptors": [
+    "minecraft:chat",
+    "minecraft:say_command",
+    "minecraft:emote_command",
+    "fuji:chat_server",
+    "fuji:chat_client",
+    "styled_chat:generic_hack"
+  ],
+  "message_rejectors": {
+    "content_rejector": {
+      "matches": []
+    },
+    "parameter_rejector": {
+      "matches": [
+        ".*literal\\{PM\\}.*"
+      ]
+    }
+  },
+  "MOD_VERSION": "14.12.0"
+}

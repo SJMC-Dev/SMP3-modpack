@@ -1,0 +1,65 @@
+{
+  "event": {
+    "on_player_death": {
+      "enable": false,
+      "commands": [
+        "send-actionbar %player:name% <pink>You just died."
+      ]
+    },
+    "after_player_break_block": {
+      "enable": false,
+      "commands": [
+        "send-actionbar %player:name% <pink>You just broke a block."
+      ]
+    },
+    "after_player_place_block": {
+      "enable": false,
+      "commands": [
+        "send-actionbar %player:name% <pink>You just placed a block."
+      ]
+    },
+    "after_player_respawn": {
+      "enable": false,
+      "commands": [
+        "give %player:name% minecraft:apple 1"
+      ]
+    },
+    "after_player_change_world": {
+      "enable": false,
+      "commands": [
+        "send-actionbar %player:name% <pink>You are in %world:id% dimension now!"
+      ]
+    },
+    "on_player_first_joined": {
+      "enable": false,
+      "commands": [
+        "send-broadcast <yellow>Welcome new player %player:name% to join us!"
+      ]
+    },
+    "on_player_joined": {
+      "enable": false,
+      "commands": [
+        "send-title %player:name% --mainTitle \"<yellow>Welcome to the server.\""
+      ]
+    },
+    "on_player_left": {
+      "enable": false,
+      "commands": [
+        "send-broadcast <dark_grey>%player:name% left the server."
+      ]
+    },
+    "on_server_started": {
+      "enable": true,
+      "commands": [
+        "scoreboard objectives add fuji_home_count dummy"
+      ]
+    },
+    "on_server_stopping": {
+      "enable": false,
+      "commands": [
+        "send-broadcast <pink>The server is stopping."
+      ]
+    }
+  },
+  "MOD_VERSION": "14.12.0"
+}
