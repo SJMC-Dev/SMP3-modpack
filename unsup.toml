@@ -1,0 +1,50 @@
+[flavor_groups.shaders]
+name = "Shaders"
+description = "是否安装光影相关的组件（对性能有一定影响）"
+side = "client"
+
+[[flavor_groups.shaders.choices]]
+id = "shaders_on"
+name = "On"
+description = "安装 Iris、Euphoria Patches 与全部光影包"
+
+[[flavor_groups.shaders.choices]]
+id = "shaders_off"
+name = "Off"
+description = "不安装 Iris、Euphoria Patches 及任何光影包"
+
+[flavor_groups.distant_horizons]
+name = "Distant Horizons"
+description = "是否安装 Distant Horizons 远距离渲染（对性能有一定影响）"
+side = "client"
+
+[[flavor_groups.distant_horizons.choices]]
+id = "distant_horizons_on"
+name = "On"
+description = "安装 Distant Horizons"
+
+[[flavor_groups.distant_horizons.choices]]
+id = "distant_horizons_off"
+name = "Off"
+description = "不安装 Distant Horizons"
+
+[metafile.iris]
+flavors = "shaders_on"
+
+[metafile.euphoria-patches]
+flavors = "shaders_on"
+
+[metafile.complementary-reimagined]
+flavors = "shaders_on"
+
+[metafile.potato-shaders]
+flavors = "shaders_on"
+
+[metafile.rethinking-voxels]
+flavors = "shaders_on"
+
+[metafile.solas-shader]
+flavors = "shaders_on"
+
+[metafile.distanthorizons]
+flavors = "distant_horizons_on"
