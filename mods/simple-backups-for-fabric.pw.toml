@@ -1,0 +1,13 @@
+name = "Simple Backups for Fabric"
+filename = "simplebackups-fabric-26.3.0-gui.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/O8REYcgj/versions/cpYo54za/simplebackups-fabric-26.3.0-gui.jar"
+hash-format = "sha512"
+hash = "1c93ef7f84028f2d5cc9a2a2934ffdc9285c7449137036499a375b4024b82dd5a5b77008917769ae8f4242048e038ff96ef953fa4c1343689eebd7c955c73413"
+
+[update]
+[update.modrinth]
+mod-id = "O8REYcgj"
+version = "cpYo54za"
