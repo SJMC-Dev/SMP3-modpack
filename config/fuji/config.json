@@ -49,7 +49,7 @@
     "chat": {
       "enable": true,
       "style": {
-        "enable": true
+        "enable": false
       },
       "display": {
         "enable": true

@@ -47,3 +47,4 @@
 ,disable-dimensions,辅助,禁用维度,both,
 ,trashslot,辅助,物品垃圾桶,both,
 ,clumps,优化,经验球合并,both,
+,styled-chat,辅助,聊天格式化,server,
