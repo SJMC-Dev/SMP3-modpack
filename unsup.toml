@@ -37,14 +37,5 @@ flavors = "shaders_on"
 [metafile.complementary-reimagined]
 flavors = "shaders_on"
 
-[metafile.potato-shaders]
-flavors = "shaders_on"
-
-[metafile.rethinking-voxels]
-flavors = "shaders_on"
-
-[metafile.solas-shader]
-flavors = "shaders_on"
-
 [metafile.distanthorizons]
 flavors = "distant_horizons_on"
