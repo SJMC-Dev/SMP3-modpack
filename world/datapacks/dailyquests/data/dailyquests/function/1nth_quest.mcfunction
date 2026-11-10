@@ -1,0 +1,1 @@
+dailyquest-reward @s

@@ -444,6 +444,19 @@
         "scoreboard players add %player:name% fuji_home_count 0",
         "chain run as player %player:name% home unset $home chain scoreboard players remove %player:name% fuji_home_count 1"
       ]
+    },
+    {
+      "enable": true,
+      "document": "每日任务奖励，由数据包调用，普通玩家不可直接执行。",
+      "requirement": {
+        "level": 4,
+        "string": null
+      },
+      "head": "dailyquest-reward <player target>",
+      "body": [
+        "economy give $target smp3:tongbao 10",
+        "economy give $target smp3:coffee_stamp 1"
+      ]
     }
   ],
   "MOD_VERSION": "14.12.0"
