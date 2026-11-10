@@ -457,6 +457,18 @@
         "economy give $target smp3:tongbao 10",
         "economy give $target smp3:coffee_stamp 1"
       ]
+    },
+    {
+      "enable": true,
+      "document": "打开服务器菜单。",
+      "requirement": {
+        "level": 0,
+        "string": null
+      },
+      "head": "menu",
+      "body": [
+        "command-menu open %player:name% main-menu"
+      ]
     }
   ],
   "MOD_VERSION": "14.12.0"

@@ -392,7 +392,7 @@
       "enable": false
     },
     "command_menu": {
-      "enable": false
+      "enable": true
     },
     "command_meta": {
       "enable": true,

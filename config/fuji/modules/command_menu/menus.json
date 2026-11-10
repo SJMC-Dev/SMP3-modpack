@@ -1,4 +1,68 @@
 {
-  "menus": {},
+  "menus": {
+    "main-menu": {
+      "title": "<gold>服务器菜单",
+      "lines": 3,
+      "close_menu_on_clicked": false,
+      "commands": {
+        "on_open_commands": [],
+        "on_closed_commands": []
+      },
+      "slots": [
+        {
+          "index": 11,
+          "other_indexes": [],
+          "fill_blank_indexes": false,
+          "item": "minecraft:clock",
+          "count": 1,
+          "display_name": "<gold>每日签到",
+          "hide_tooltip": false,
+          "glow": false,
+          "lore": [
+            "<gray>点击打开签到界面"
+          ],
+          "view_requirement": {
+            "level": 0,
+            "string": null
+          },
+          "commands": {
+            "on_left_click_commands": [
+              "run as player %player:name% sign"
+            ],
+            "on_left_shift_click_commands": [],
+            "on_right_click_commands": [],
+            "on_right_shift_click_commands": [],
+            "on_middle_click_commands": []
+          }
+        },
+        {
+          "index": 15,
+          "other_indexes": [],
+          "fill_blank_indexes": false,
+          "item": "minecraft:name_tag",
+          "count": 1,
+          "display_name": "<aqua>称号",
+          "hide_tooltip": false,
+          "glow": false,
+          "lore": [
+            "<gray>点击打开称号界面"
+          ],
+          "view_requirement": {
+            "level": 0,
+            "string": null
+          },
+          "commands": {
+            "on_left_click_commands": [
+              "run as player %player:name% title!"
+            ],
+            "on_left_shift_click_commands": [],
+            "on_right_click_commands": [],
+            "on_right_shift_click_commands": [],
+            "on_middle_click_commands": []
+          }
+        }
+      ]
+    }
+  },
   "MOD_VERSION": "14.12.0"
 }
