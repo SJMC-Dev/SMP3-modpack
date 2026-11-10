@@ -18,8 +18,6 @@
       "command-bundle.list": 4,
       "command-bundle.register": 4,
       "command-bundle.un-register": 4,
-      "command-menu.close.player": 4,
-      "command-menu.open.player.menuName": 4,
       "economy.account.player.currencyId": 4,
       "economy.accounts.player": 4,
       "economy.balance": 4,
@@ -96,19 +94,7 @@
       "warp.set-position.warp": 4,
       "warp.set.warpName.override": 4,
       "warp.tp.warpName": 0,
-      "warp.unset.warpName": 4,
-      "world.create.name.dimensionType.seed.chunkGeneratorType.chunkGeneratorParameters.worldPresetType": 4,
-      "world.delete.dimension.confirm": 4,
-      "world.import.name.dimensionType.seed.chunkGeneratorType.chunkGeneratorParameters.worldPresetType": 4,
-      "world.info.dimension": 4,
-      "world.list": 4,
-      "world.load.dimension": 4,
-      "world.reset.dimension.useTheSameSeed.confirm": 4,
-      "world.save-configs": 4,
-      "world.tp.dimension": 4,
-      "world.unload.dimension": 4,
-      "world.who": 4,
-      "world.who.dimension": 4
+      "warp.unset.warpName": 4
     }
   },
   "MOD_VERSION": "14.12.0"

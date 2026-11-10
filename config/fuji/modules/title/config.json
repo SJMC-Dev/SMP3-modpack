@@ -1,29 +1,158 @@
 {
-  "default_active_title_id": "resident",
+  "default_active_title_id": null,
   "no_active_title_text": "<grey>[None]",
   "title_descriptors": [
     {
-      "id": "resident",
+      "id": "advancement_minecraft",
       "item": "minecraft:grass_block",
-      "display_name": "<dark_green>[Resident]",
+      "display_name": "<gradient:#0086D1:#10B7DA>「方界通明」</gradient>",
       "lore": [
-        "<yellow>The title for a resident."
+        "<grey>稀有度：<gradient:#0086D1:#10B7DA>稀有级</gradient>",
+        "<grey>完成 Minecraft 进度树"
       ]
     },
     {
-      "id": "farmer",
-      "item": "minecraft:iron_hoe",
-      "display_name": "<green>[Farmer]",
+      "id": "advancement_adventure",
+      "item": "minecraft:map",
+      "display_name": "<gradient:#AA00AA:#E70DC6>「万境行者」</gradient>",
       "lore": [
-        "<yellow>The title for a farmer."
+        "<grey>稀有度：<gradient:#AA00AA:#E70DC6>史诗级</gradient>",
+        "<grey>完成冒险进度树"
       ]
     },
     {
-      "id": "fisher",
-      "item": "minecraft:fishing_rod",
-      "display_name": "<blue>[Fisher]",
+      "id": "advancement_nether",
+      "item": "minecraft:netherrack",
+      "display_name": "<gradient:#AA00AA:#E70DC6>「狱火归人」</gradient>",
       "lore": [
-        "<yellow>The title for a fisher."
+        "<grey>稀有度：<gradient:#AA00AA:#E70DC6>史诗级</gradient>",
+        "<grey>完成下界进度树"
+      ]
+    },
+    {
+      "id": "advancement_end",
+      "item": "minecraft:end_stone",
+      "display_name": "<gradient:#AA00AA:#E70DC6>「彼岸终旅」</gradient>",
+      "lore": [
+        "<grey>稀有度：<gradient:#AA00AA:#E70DC6>史诗级</gradient>",
+        "<grey>完成末地进度树"
+      ]
+    },
+    {
+      "id": "advancement_farming",
+      "item": "minecraft:wheat",
+      "display_name": "<gradient:#AA00AA:#E70DC6>「丰岁知耕」</gradient>",
+      "lore": [
+        "<grey>稀有度：<gradient:#AA00AA:#E70DC6>史诗级</gradient>",
+        "<grey>完成农牧业进度树"
+      ]
+    },
+    {
+      "id": "advancement_all",
+      "item": "minecraft:nether_star",
+      "display_name": "<gradient:#FFD700:#FCAB0E>「全进度大神」</gradient>",
+      "lore": [
+        "<grey>稀有度：<gradient:#FFD700:#FCAB0E>传说级</gradient>",
+        "<grey>完成全部进度"
+      ]
+    },
+    {
+      "id": "signin_t1",
+      "item": "minecraft:oak_sapling",
+      "display_name": "<color:#F2F2F6>「方来乍到」</color>",
+      "lore": [
+        "<grey>稀有度：<color:#F2F2F6>普通级</color>",
+        "<grey>累计签到 2 天"
+      ]
+    },
+    {
+      "id": "signin_t2",
+      "item": "minecraft:clock",
+      "display_name": "<gradient:#0086D1:#10B7DA>「略有方龄」</gradient>",
+      "lore": [
+        "<grey>稀有度：<gradient:#0086D1:#10B7DA>稀有级</gradient>",
+        "<grey>累计签到 30 天"
+      ]
+    },
+    {
+      "id": "signin_t3",
+      "item": "minecraft:experience_bottle",
+      "display_name": "<gradient:#AA00AA:#E70DC6>「方龄正盛」</gradient>",
+      "lore": [
+        "<grey>稀有度：<gradient:#AA00AA:#E70DC6>史诗级</gradient>",
+        "<grey>累计签到 120 天"
+      ]
+    },
+    {
+      "id": "signin_t4",
+      "item": "minecraft:ancient_debris",
+      "display_name": "<gradient:#FFD700:#FCAB0E>「上古方民」</gradient>",
+      "lore": [
+        "<grey>稀有度：<gradient:#FFD700:#FCAB0E>传说级</gradient>",
+        "<grey>累计签到 365 天"
+      ]
+    },
+    {
+      "id": "signin_t5",
+      "item": "minecraft:totem_of_undying",
+      "display_name": "<color:#BD0F1E>「还在玩啊」</color>",
+      "lore": [
+        "<grey>稀有度：<color:#BD0F1E>究极级</color>",
+        "<grey>累计签到 1000 天"
+      ]
+    },
+    {
+      "id": "wealth_t1",
+      "item": "minecraft:wooden_pickaxe",
+      "display_name": "<color:#F2F2F6>「白手起家」</color>",
+      "lore": [
+        "<grey>稀有度：<color:#F2F2F6>普通级</color>",
+        "<grey>累计消费 500 通宝"
+      ]
+    },
+    {
+      "id": "wealth_t2",
+      "item": "minecraft:iron_pickaxe",
+      "display_name": "<gradient:#0086D1:#10B7DA>「小有积蓄」</gradient>",
+      "lore": [
+        "<grey>稀有度：<gradient:#0086D1:#10B7DA>稀有级</gradient>",
+        "<grey>累计消费 2000 通宝"
+      ]
+    },
+    {
+      "id": "wealth_t3",
+      "item": "minecraft:golden_pickaxe",
+      "display_name": "<gradient:#AA00AA:#E70DC6>「腰缠万贯」</gradient>",
+      "lore": [
+        "<grey>稀有度：<gradient:#AA00AA:#E70DC6>史诗级</gradient>",
+        "<grey>累计消费 10000 通宝"
+      ]
+    },
+    {
+      "id": "wealth_t4",
+      "item": "minecraft:diamond_pickaxe",
+      "display_name": "<gradient:#FFD700:#FCAB0E>「富可敌国」</gradient>",
+      "lore": [
+        "<grey>稀有度：<gradient:#FFD700:#FCAB0E>传说级</gradient>",
+        "<grey>累计消费 100000 通宝"
+      ]
+    },
+    {
+      "id": "founding_player",
+      "item": "minecraft:campfire",
+      "display_name": "<gradient:#0086D1:#10B7DA>「开服玩家」</gradient>",
+      "lore": [
+        "<grey>稀有度：<gradient:#0086D1:#10B7DA>稀有级</gradient>",
+        "<grey>开服玩家专属"
+      ]
+    },
+    {
+      "id": "nether_builder",
+      "item": "minecraft:soul_lantern",
+      "display_name": "<gradient:#0086D1:#10B7DA>「烬界筑光」</gradient>",
+      "lore": [
+        "<grey>稀有度：<gradient:#0086D1:#10B7DA>稀有级</gradient>",
+        "<grey>特殊贡献称号"
       ]
     }
   ],

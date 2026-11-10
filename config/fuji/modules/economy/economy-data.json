@@ -10,6 +10,51 @@
         {
           "owner_name": "123",
           "balance": 1000
+        },
+        {
+          "owner_name": "null",
+          "balance": 628
+        },
+        {
+          "owner_name": "1",
+          "balance": 0
+        },
+        {
+          "owner_name": "icgnos",
+          "balance": 0
+        },
+        {
+          "owner_name": "xWang_Wangx",
+          "balance": 0
+        }
+      ]
+    },
+    {
+      "currency_id": "fuji:coffee_stamp",
+      "accounts": [
+        {
+          "owner_name": "null",
+          "balance": 0
+        },
+        {
+          "owner_name": "1",
+          "balance": 0
+        },
+        {
+          "owner_name": "111",
+          "balance": 0
+        },
+        {
+          "owner_name": "123",
+          "balance": 0
+        },
+        {
+          "owner_name": "icgnos",
+          "balance": 0
+        },
+        {
+          "owner_name": "xWang_Wangx",
+          "balance": 0
         }
       ]
     }

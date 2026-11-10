@@ -188,7 +188,7 @@
       "enable": false
     },
     "world": {
-      "enable": true,
+      "enable": false,
       "border": {
         "enable": true
       }
@@ -392,7 +392,7 @@
       "enable": false
     },
     "command_menu": {
-      "enable": true
+      "enable": false
     },
     "command_meta": {
       "enable": true,

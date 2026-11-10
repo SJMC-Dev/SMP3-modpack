@@ -409,18 +409,6 @@
     },
     {
       "enable": true,
-      "document": "打开服务器主菜单。",
-      "requirement": {
-        "level": 0,
-        "string": null
-      },
-      "head": "menu",
-      "body": [
-        "command-menu open %player:name% main-menu"
-      ]
-    },
-    {
-      "enable": true,
       "document": "按玩家当前所在维度收取通宝后执行当前维度的随机传送。",
       "requirement": {
         "level": 0,
@@ -428,7 +416,7 @@
       },
       "head": "paid-rtp",
       "body": [
-        "IF is-in-world? %player:name% minecraft:overworld THEN chain has-currency? %player:name% fuji:tongbao 3 chain run as player %player:name% rtp chain economy take %player:name% fuji:tongbao 3 ELSE chain has-currency? %player:name% fuji:tongbao 5 chain run as player %player:name% rtp chain economy take %player:name% fuji:tongbao 5"
+        "IF is-in-world? %player:name% minecraft:overworld THEN chain has-currency? %player:name% smp3:tongbao 3 chain run as player %player:name% rtp chain economy take %player:name% smp3:tongbao 3 ELSE chain has-currency? %player:name% smp3:tongbao 5 chain run as player %player:name% rtp chain economy take %player:name% smp3:tongbao 5"
       ]
     },
     {
