@@ -1,0 +1,13 @@
+name = "Disable Dimensions Reimagined"
+filename = "disable-dimensions-reimagined-0.1.1+26.2-fabric.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/NMaw8WgA/versions/xQ5fPT8z/disable-dimensions-reimagined-0.1.1%2B26.2-fabric.jar"
+hash-format = "sha512"
+hash = "7b33d14436ef4479e36eced0210143ba04193654647e8d739b8073c4ddce8609ba1d39238321fe504e248f0be202d512244809c097db0dadd93a722b4ab67df2"
+
+[update]
+[update.modrinth]
+mod-id = "NMaw8WgA"
+version = "xQ5fPT8z"
