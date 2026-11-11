@@ -1,6 +1,6 @@
 {
   "default_active_title_id": null,
-  "no_active_title_text": "<grey>[None]",
+  "no_active_title_text": "",
   "title_descriptors": [
     {
       "id": "advancement_minecraft",
