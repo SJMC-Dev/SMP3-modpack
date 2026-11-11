@@ -1,0 +1,10 @@
+{
+  "right_click_to_sit": {
+    "enable": true,
+    "allow_sneaking_to_sit": false,
+    "require_empty_hand_to_sit": true,
+    "require_no_opaque_block_above_to_sit": true,
+    "max_distance_to_sit": -1
+  },
+  "MOD_VERSION": "14.12.0"
+}

@@ -1,8 +1,8 @@
 {
   "menus": {
     "main-menu": {
-      "title": "<gold>服务器菜单",
-      "lines": 3,
+      "title": "<dark_aqua><bold>玩家主菜单",
+      "lines": 6,
       "close_menu_on_clicked": false,
       "commands": {
         "on_open_commands": [],
@@ -10,16 +10,91 @@
       },
       "slots": [
         {
-          "index": 11,
+          "index": 4,
           "other_indexes": [],
           "fill_blank_indexes": false,
-          "item": "minecraft:clock",
+          "item": "minecraft:player_head[minecraft:profile=\"%player:name%\"]",
           "count": 1,
-          "display_name": "<gold>每日签到",
+          "display_name": "<yellow><bold>玩家主菜单",
           "hide_tooltip": false,
           "glow": false,
           "lore": [
-            "<gray>点击打开签到界面"
+            "<gray>玩家名称：<white>%player:name%"
+          ],
+          "view_requirement": {
+            "level": 0,
+            "string": null
+          },
+          "commands": {
+            "on_left_click_commands": [],
+            "on_left_shift_click_commands": [],
+            "on_right_click_commands": [],
+            "on_right_shift_click_commands": [],
+            "on_middle_click_commands": []
+          }
+        },
+        {
+          "index": 11,
+          "other_indexes": [],
+          "fill_blank_indexes": false,
+          "item": "minecraft:iron_pickaxe",
+          "count": 1,
+          "display_name": "<light_gray><bold>铁镐通宝",
+          "hide_tooltip": false,
+          "glow": false,
+          "lore": [
+            "<gray>当前余额：<white>%fuji:balance smp3:tongbao%",
+            "<dark_gray>重新打开菜单可刷新余额"
+          ],
+          "view_requirement": {
+            "level": 0,
+            "string": null
+          },
+          "commands": {
+            "on_left_click_commands": [],
+            "on_left_shift_click_commands": [],
+            "on_right_click_commands": [],
+            "on_right_shift_click_commands": [],
+            "on_middle_click_commands": []
+          }
+        },
+        {
+          "index": 15,
+          "other_indexes": [],
+          "fill_blank_indexes": false,
+          "item": "minecraft:mojang_banner_pattern",
+          "count": 1,
+          "display_name": "<gold><bold>咖啡印章",
+          "hide_tooltip": false,
+          "glow": false,
+          "lore": [
+            "<gray>当前余额：<white>%fuji:balance smp3:coffee_stamp%",
+            "<dark_gray>重新打开菜单可刷新余额"
+          ],
+          "view_requirement": {
+            "level": 0,
+            "string": null
+          },
+          "commands": {
+            "on_left_click_commands": [],
+            "on_left_shift_click_commands": [],
+            "on_right_click_commands": [],
+            "on_right_shift_click_commands": [],
+            "on_middle_click_commands": []
+          }
+        },
+        {
+          "index": 29,
+          "other_indexes": [],
+          "fill_blank_indexes": false,
+          "item": "minecraft:writable_book",
+          "count": 1,
+          "display_name": "<aqua><bold>每日签到",
+          "hide_tooltip": false,
+          "glow": false,
+          "lore": [
+            "<gray>领取每日签到奖励",
+            "<yellow>点击打开签到界面"
           ],
           "view_requirement": {
             "level": 0,
@@ -36,16 +111,100 @@
           }
         },
         {
-          "index": 15,
+          "index": 31,
+          "other_indexes": [],
+          "fill_blank_indexes": false,
+          "item": "minecraft:experience_bottle",
+          "count": 1,
+          "display_name": "<aqua><bold>每日任务",
+          "hide_tooltip": false,
+          "glow": false,
+          "lore": [
+            "<gray>查看任务要求、奖励",
+            "<yellow>点击查看每日任务"
+          ],
+          "view_requirement": {
+            "level": 0,
+            "string": null
+          },
+          "commands": {
+            "on_left_click_commands": [
+              "send-message %player:name% <yellow>每日任务请查看Daily Quests模组菜单。"
+            ],
+            "on_left_shift_click_commands": [],
+            "on_right_click_commands": [],
+            "on_right_shift_click_commands": [],
+            "on_middle_click_commands": []
+          }
+        },
+        {
+          "index": 33,
+          "other_indexes": [],
+          "fill_blank_indexes": false,
+          "item": "minecraft:bell",
+          "count": 1,
+          "display_name": "<aqua><bold>活动列表",
+          "hide_tooltip": false,
+          "glow": false,
+          "lore": [
+            "<gray>查看活动名称、时间、类型与状态",
+            "<yellow>点击打开活动列表"
+          ],
+          "view_requirement": {
+            "level": 0,
+            "string": null
+          },
+          "commands": {
+            "on_left_click_commands": [
+              "command-menu open %player:name% server-activities"
+            ],
+            "on_left_shift_click_commands": [],
+            "on_right_click_commands": [
+              "command-menu open %player:name% server-activities"
+            ],
+            "on_right_shift_click_commands": [],
+            "on_middle_click_commands": []
+          }
+        },
+        {
+          "index": 38,
+          "other_indexes": [],
+          "fill_blank_indexes": false,
+          "item": "minecraft:emerald",
+          "count": 1,
+          "display_name": "<aqua><bold>商店菜单",
+          "hide_tooltip": false,
+          "glow": false,
+          "lore": [
+            "<gray>购买建材、特殊物品、称号，回收物品",
+            "<yellow>点击查看商店列表"
+          ],
+          "view_requirement": {
+            "level": 0,
+            "string": null
+          },
+          "commands": {
+            "on_left_click_commands": [
+              "shop %player:name%"
+            ],
+            "on_left_shift_click_commands": [],
+            "on_right_click_commands": [],
+            "on_right_shift_click_commands": [],
+            "on_middle_click_commands": []
+          }
+        },
+        {
+          "index": 40,
           "other_indexes": [],
           "fill_blank_indexes": false,
           "item": "minecraft:name_tag",
           "count": 1,
-          "display_name": "<aqua>称号",
+          "display_name": "<aqua><bold>称号列表",
           "hide_tooltip": false,
           "glow": false,
           "lore": [
-            "<gray>点击打开称号界面"
+            "<gray>查看称号列表和佩戴、卸下称号",
+            "<yellow>点击打开称号列表"
           ],
           "view_requirement": {
             "level": 0,
@@ -57,6 +216,283 @@
             ],
             "on_left_shift_click_commands": [],
             "on_right_click_commands": [],
+            "on_right_shift_click_commands": [],
+            "on_middle_click_commands": []
+          }
+        },
+        {
+          "index": 42,
+          "other_indexes": [],
+          "fill_blank_indexes": false,
+          "item": "minecraft:spyglass",
+          "count": 1,
+          "display_name": "<aqua><bold>服务器公告",
+          "hide_tooltip": false,
+          "glow": false,
+          "lore": [
+            "<gray>暂未开放，敬请期待"
+          ],
+          "view_requirement": {
+            "level": 0,
+            "string": null
+          },
+          "commands": {
+            "on_left_click_commands": [
+              "send-message %player:name% <red>服务器公告暂未开放，敬请期待。"
+            ],
+            "on_left_shift_click_commands": [],
+            "on_right_click_commands": [],
+            "on_right_shift_click_commands": [],
+            "on_middle_click_commands": []
+          }
+        },
+        {
+          "index": 53,
+          "other_indexes": [],
+          "fill_blank_indexes": false,
+          "item": "minecraft:barrier",
+          "count": 1,
+          "display_name": "<red><bold>关闭菜单",
+          "hide_tooltip": false,
+          "glow": false,
+          "lore": [],
+          "view_requirement": {
+            "level": 0,
+            "string": null
+          },
+          "commands": {
+            "on_left_click_commands": [
+              "command-menu close %player:name%"
+            ],
+            "on_left_shift_click_commands": [],
+            "on_right_click_commands": [],
+            "on_right_shift_click_commands": [],
+            "on_middle_click_commands": []
+          }
+        }
+      ]
+    },
+    "server-activities": {
+      "title": "<dark_aqua><bold>活动列表",
+      "lines": 6,
+      "close_menu_on_clicked": false,
+      "commands": {
+        "on_open_commands": [],
+        "on_closed_commands": []
+      },
+      "slots": [
+        {
+          "index": 4,
+          "other_indexes": [],
+          "fill_blank_indexes": false,
+          "item": "minecraft:bell",
+          "count": 1,
+          "display_name": "<yellow><bold>活动列表",
+          "hide_tooltip": false,
+          "glow": false,
+          "lore": [
+            "<gray>点击活动后在聊天栏打开 Wiki 链接"
+          ],
+          "view_requirement": {
+            "level": 0,
+            "string": null
+          },
+          "commands": {
+            "on_left_click_commands": [],
+            "on_left_shift_click_commands": [],
+            "on_right_click_commands": [],
+            "on_right_shift_click_commands": [],
+            "on_middle_click_commands": []
+          }
+        },
+        {
+          "index": 10,
+          "other_indexes": [],
+          "fill_blank_indexes": false,
+          "item": "minecraft:obsidian",
+          "count": 1,
+          "display_name": "<aqua><bold>新门共筑",
+          "hide_tooltip": false,
+          "glow": false,
+          "lore": [
+            "<gray>活动名称：<white>新门共筑",
+            "<gray>活动时间：<white>2026.11.11-2026.11.30",
+            "<gray>活动类型：<aqua>合作、奖励",
+            "<gray>活动状态：<green>进行中",
+            "",
+            "<yellow>点击获取 Wiki 链接"
+          ],
+          "view_requirement": {
+            "level": 0,
+            "string": null
+          },
+          "commands": {
+            "on_left_click_commands": [
+              "command-menu close %player:name%",
+              "tellraw %player:name% {\"text\":\"[新门共筑] 点击打开 Wiki\",\"color\":\"aqua\",\"underlined\":true,\"click_event\":{\"action\":\"open_url\",\"url\":\"https://mc.sjtu.cn/wiki/?curid=911\"}}"
+            ],
+            "on_left_shift_click_commands": [],
+            "on_right_click_commands": [
+              "command-menu close %player:name%",
+              "tellraw %player:name% {\"text\":\"[新门共筑] 点击打开 Wiki\",\"color\":\"aqua\",\"underlined\":true,\"click_event\":{\"action\":\"open_url\",\"url\":\"https://mc.sjtu.cn/wiki/?curid=911\"}}"
+            ],
+            "on_right_shift_click_commands": [],
+            "on_middle_click_commands": []
+          }
+        },
+        {
+          "index": 12,
+          "other_indexes": [],
+          "fill_blank_indexes": false,
+          "item": "minecraft:beacon",
+          "count": 1,
+          "display_name": "<aqua><bold>云途再续Ⅰ",
+          "hide_tooltip": false,
+          "glow": false,
+          "lore": [
+            "<gray>活动名称：<white>云途再续Ⅰ",
+            "<gray>活动时间：<white>2026.11.11-3.0版本结束",
+            "<gray>活动类型：<aqua>建筑、合作、奖励",
+            "<gray>活动状态：<green>进行中",
+            "",
+            "<yellow>点击获取 Wiki 链接"
+          ],
+          "view_requirement": {
+            "level": 0,
+            "string": null
+          },
+          "commands": {
+            "on_left_click_commands": [
+              "command-menu close %player:name%",
+              "tellraw %player:name% {\"text\":\"[云途再续Ⅰ] 点击打开 Wiki\",\"color\":\"aqua\",\"underlined\":true,\"click_event\":{\"action\":\"open_url\",\"url\":\"https://mc.sjtu.cn/wiki/?curid=1029\"}}"
+            ],
+            "on_left_shift_click_commands": [],
+            "on_right_click_commands": [
+              "command-menu close %player:name%",
+              "tellraw %player:name% {\"text\":\"[云途再续Ⅰ] 点击打开 Wiki\",\"color\":\"aqua\",\"underlined\":true,\"click_event\":{\"action\":\"open_url\",\"url\":\"https://mc.sjtu.cn/wiki/?curid=1029\"}}"
+            ],
+            "on_right_shift_click_commands": [],
+            "on_middle_click_commands": []
+          }
+        },
+        {
+          "index": 14,
+          "other_indexes": [],
+          "fill_blank_indexes": false,
+          "item": "minecraft:chest",
+          "count": 1,
+          "display_name": "<aqua><bold>新启之礼Ⅰ",
+          "hide_tooltip": false,
+          "glow": false,
+          "lore": [
+            "<gray>活动名称：<white>新启之礼Ⅰ",
+            "<gray>活动时间：<white>2026.11.11-3.0版本结束",
+            "<gray>活动类型：<aqua>签到、奖励",
+            "<gray>活动状态：<green>进行中",
+            "",
+            "<yellow>点击获取 Wiki 链接"
+          ],
+          "view_requirement": {
+            "level": 0,
+            "string": null
+          },
+          "commands": {
+            "on_left_click_commands": [
+              "command-menu close %player:name%",
+              "tellraw %player:name% {\"text\":\"[新启之礼Ⅰ] 点击打开 Wiki\",\"color\":\"aqua\",\"underlined\":true,\"click_event\":{\"action\":\"open_url\",\"url\":\"https://mc.sjtu.cn/wiki/?curid=1028\"}}"
+            ],
+            "on_left_shift_click_commands": [],
+            "on_right_click_commands": [
+              "command-menu close %player:name%",
+              "tellraw %player:name% {\"text\":\"[新启之礼Ⅰ] 点击打开 Wiki\",\"color\":\"aqua\",\"underlined\":true,\"click_event\":{\"action\":\"open_url\",\"url\":\"https://mc.sjtu.cn/wiki/?curid=1058\"}}"
+            ],
+            "on_right_shift_click_commands": [],
+            "on_middle_click_commands": []
+          }
+        },
+        {
+          "index": 16,
+          "other_indexes": [],
+          "fill_blank_indexes": false,
+          "item": "minecraft:water_bucket",
+          "count": 1,
+          "display_name": "<aqua><bold>共叙新程",
+          "hide_tooltip": false,
+          "glow": false,
+          "lore": [
+            "<gray>活动名称：<white>共叙新程",
+            "<gray>活动时间：<white>2026.11.11起",
+            "<gray>活动类型：<aqua>宣传、分享",
+            "<gray>活动状态：<green>进行中",
+            "",
+            "<yellow>点击获取 Wiki 链接"
+          ],
+          "view_requirement": {
+            "level": 0,
+            "string": null
+          },
+          "commands": {
+            "on_left_click_commands": [
+              "command-menu close %player:name%",
+              "tellraw %player:name% {\"text\":\"[共叙新程] 点击打开 Wiki\",\"color\":\"aqua\",\"underlined\":true,\"click_event\":{\"action\":\"open_url\",\"url\":\"https://mc.sjtu.cn/wiki/?curid=1038\"}}"
+            ],
+            "on_left_shift_click_commands": [],
+            "on_right_click_commands": [
+              "command-menu close %player:name%",
+              "tellraw %player:name% {\"text\":\"[共叙新程] 点击打开 Wiki\",\"color\":\"aqua\",\"underlined\":true,\"click_event\":{\"action\":\"open_url\",\"url\":\"https://mc.sjtu.cn/wiki/?curid=1038\"}}"
+            ],
+            "on_right_shift_click_commands": [],
+            "on_middle_click_commands": []
+          }
+        },
+        {
+          "index": 49,
+          "other_indexes": [],
+          "fill_blank_indexes": false,
+          "item": "minecraft:arrow",
+          "count": 1,
+          "display_name": "<yellow>返回主菜单",
+          "hide_tooltip": false,
+          "glow": false,
+          "lore": [],
+          "view_requirement": {
+            "level": 0,
+            "string": null
+          },
+          "commands": {
+            "on_left_click_commands": [
+              "command-menu open %player:name% main-menu"
+            ],
+            "on_left_shift_click_commands": [],
+            "on_right_click_commands": [
+              "command-menu open %player:name% main-menu"
+            ],
+            "on_right_shift_click_commands": [],
+            "on_middle_click_commands": []
+          }
+        },
+        {
+          "index": 53,
+          "other_indexes": [],
+          "fill_blank_indexes": false,
+          "item": "minecraft:barrier",
+          "count": 1,
+          "display_name": "<red>关闭菜单",
+          "hide_tooltip": false,
+          "glow": false,
+          "lore": [],
+          "view_requirement": {
+            "level": 0,
+            "string": null
+          },
+          "commands": {
+            "on_left_click_commands": [
+              "command-menu close %player:name%"
+            ],
+            "on_left_shift_click_commands": [],
+            "on_right_click_commands": [
+              "command-menu close %player:name%"
+            ],
             "on_right_shift_click_commands": [],
             "on_middle_click_commands": []
           }

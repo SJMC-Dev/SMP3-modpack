@@ -6,14 +6,14 @@
         "dimension": "minecraft:overworld",
         "center_x": 0,
         "center_z": 0,
-        "circle": false,
+        "circle": true,
         "min_range": 1000,
         "max_range": 5000,
         "min_y": -64,
         "max_y": 320,
         "max_try_times": 16,
         "async_chunk_loading_timeout_ticks": 200,
-        "chunk_inhabited_time_lower_than_ticks": 6000,
+        "chunk_inhabited_time_lower_than_ticks": 2147483647,
         "biomes": {
           "skip": [
             "minecraft:deep_cold_ocean",
@@ -38,11 +38,14 @@
           "skip": [
             "minecraft:magma_block",
             "minecraft:cactus",
-            "minecraft:powder_snow",
             "minecraft:void_air",
+            "minecraft:powder_snow",
             "minecraft:sweet_berry_bush",
             "minecraft:campfire",
-            "minecraft:fire"
+            "minecraft:fire",
+            "minecraft:soul_fire",
+            "minecraft:soul_campfire",
+            "minecraft:lava"
           ]
         }
       },
@@ -51,14 +54,14 @@
         "dimension": "minecraft:the_nether",
         "center_x": 0,
         "center_z": 0,
-        "circle": false,
+        "circle": true,
         "min_range": 1000,
         "max_range": 5000,
         "min_y": 0,
-        "max_y": 128,
+        "max_y": 127,
         "max_try_times": 16,
         "async_chunk_loading_timeout_ticks": 200,
-        "chunk_inhabited_time_lower_than_ticks": 6000,
+        "chunk_inhabited_time_lower_than_ticks": 2147483647,
         "biomes": {
           "skip": [
             "minecraft:deep_cold_ocean",
@@ -83,191 +86,14 @@
           "skip": [
             "minecraft:magma_block",
             "minecraft:cactus",
-            "minecraft:powder_snow",
             "minecraft:void_air",
+            "minecraft:powder_snow",
             "minecraft:sweet_berry_bush",
             "minecraft:campfire",
-            "minecraft:fire"
-          ]
-        }
-      },
-      {
-        "enable": true,
-        "dimension": "minecraft:the_end",
-        "center_x": 0,
-        "center_z": 0,
-        "circle": false,
-        "min_range": 1000,
-        "max_range": 5000,
-        "min_y": 0,
-        "max_y": 256,
-        "max_try_times": 16,
-        "async_chunk_loading_timeout_ticks": 200,
-        "chunk_inhabited_time_lower_than_ticks": 6000,
-        "biomes": {
-          "skip": [
-            "minecraft:deep_cold_ocean",
-            "minecraft:cold_ocean",
-            "minecraft:frozen_ocean",
-            "minecraft:deep_frozen_ocean",
-            "minecraft:ocean",
-            "minecraft:deep_ocean",
-            "minecraft:lukewarm_ocean",
-            "minecraft:warm_ocean",
-            "minecraft:deep_lukewarm_ocean"
-          ],
-          "only_accept_biomes_mode": {
-            "enable": false,
-            "accept": [
-              "minecraft:mushroom_fields",
-              "minecraft:plains"
-            ]
-          }
-        },
-        "blocks": {
-          "skip": [
-            "minecraft:magma_block",
-            "minecraft:cactus",
-            "minecraft:powder_snow",
-            "minecraft:void_air",
-            "minecraft:sweet_berry_bush",
-            "minecraft:campfire",
-            "minecraft:fire"
-          ]
-        }
-      },
-      {
-        "enable": true,
-        "dimension": "fuji:overworld",
-        "center_x": 0,
-        "center_z": 0,
-        "circle": false,
-        "min_range": 1000,
-        "max_range": 5000,
-        "min_y": -64,
-        "max_y": 320,
-        "max_try_times": 16,
-        "async_chunk_loading_timeout_ticks": 200,
-        "chunk_inhabited_time_lower_than_ticks": 6000,
-        "biomes": {
-          "skip": [
-            "minecraft:deep_cold_ocean",
-            "minecraft:cold_ocean",
-            "minecraft:frozen_ocean",
-            "minecraft:deep_frozen_ocean",
-            "minecraft:ocean",
-            "minecraft:deep_ocean",
-            "minecraft:lukewarm_ocean",
-            "minecraft:warm_ocean",
-            "minecraft:deep_lukewarm_ocean"
-          ],
-          "only_accept_biomes_mode": {
-            "enable": false,
-            "accept": [
-              "minecraft:mushroom_fields",
-              "minecraft:plains"
-            ]
-          }
-        },
-        "blocks": {
-          "skip": [
-            "minecraft:magma_block",
-            "minecraft:cactus",
-            "minecraft:powder_snow",
-            "minecraft:void_air",
-            "minecraft:sweet_berry_bush",
-            "minecraft:campfire",
-            "minecraft:fire"
-          ]
-        }
-      },
-      {
-        "enable": true,
-        "dimension": "fuji:the_nether",
-        "center_x": 0,
-        "center_z": 0,
-        "circle": false,
-        "min_range": 1000,
-        "max_range": 5000,
-        "min_y": 0,
-        "max_y": 128,
-        "max_try_times": 16,
-        "async_chunk_loading_timeout_ticks": 200,
-        "chunk_inhabited_time_lower_than_ticks": 6000,
-        "biomes": {
-          "skip": [
-            "minecraft:deep_cold_ocean",
-            "minecraft:cold_ocean",
-            "minecraft:frozen_ocean",
-            "minecraft:deep_frozen_ocean",
-            "minecraft:ocean",
-            "minecraft:deep_ocean",
-            "minecraft:lukewarm_ocean",
-            "minecraft:warm_ocean",
-            "minecraft:deep_lukewarm_ocean"
-          ],
-          "only_accept_biomes_mode": {
-            "enable": false,
-            "accept": [
-              "minecraft:mushroom_fields",
-              "minecraft:plains"
-            ]
-          }
-        },
-        "blocks": {
-          "skip": [
-            "minecraft:magma_block",
-            "minecraft:cactus",
-            "minecraft:powder_snow",
-            "minecraft:void_air",
-            "minecraft:sweet_berry_bush",
-            "minecraft:campfire",
-            "minecraft:fire"
-          ]
-        }
-      },
-      {
-        "enable": true,
-        "dimension": "fuji:the_end",
-        "center_x": 0,
-        "center_z": 0,
-        "circle": false,
-        "min_range": 0,
-        "max_range": 48,
-        "min_y": 0,
-        "max_y": 256,
-        "max_try_times": 16,
-        "async_chunk_loading_timeout_ticks": 200,
-        "chunk_inhabited_time_lower_than_ticks": 6000,
-        "biomes": {
-          "skip": [
-            "minecraft:deep_cold_ocean",
-            "minecraft:cold_ocean",
-            "minecraft:frozen_ocean",
-            "minecraft:deep_frozen_ocean",
-            "minecraft:ocean",
-            "minecraft:deep_ocean",
-            "minecraft:lukewarm_ocean",
-            "minecraft:warm_ocean",
-            "minecraft:deep_lukewarm_ocean"
-          ],
-          "only_accept_biomes_mode": {
-            "enable": false,
-            "accept": [
-              "minecraft:mushroom_fields",
-              "minecraft:plains"
-            ]
-          }
-        },
-        "blocks": {
-          "skip": [
-            "minecraft:magma_block",
-            "minecraft:cactus",
-            "minecraft:powder_snow",
-            "minecraft:void_air",
-            "minecraft:sweet_berry_bush",
-            "minecraft:campfire",
-            "minecraft:fire"
+            "minecraft:fire",
+            "minecraft:soul_fire",
+            "minecraft:soul_campfire",
+            "minecraft:lava"
           ]
         }
       }

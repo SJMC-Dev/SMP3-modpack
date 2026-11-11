@@ -23,7 +23,7 @@
       "command-permission.verbose": 4,
       "economy.account.player.currencyId": 4,
       "economy.accounts.player": 4,
-      "economy.balance": 4,
+      "economy.balance": 0,
       "economy.balance-top.currencyId": 4,
       "economy.balance-top.gui.currencyId": 4,
       "economy.clear.player.currencyId.confirm": 4,
