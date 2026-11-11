@@ -248,7 +248,7 @@
       "enable": false
     },
     "command_permission": {
-      "enable": false
+      "enable": true
     },
     "command_rewrite": {
       "enable": true
