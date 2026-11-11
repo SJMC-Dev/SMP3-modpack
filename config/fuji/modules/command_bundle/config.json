@@ -447,19 +447,6 @@
     },
     {
       "enable": true,
-      "document": "每日任务奖励，由数据包调用，普通玩家不可直接执行。",
-      "requirement": {
-        "level": 4,
-        "string": null
-      },
-      "head": "dailyquest-reward <player target>",
-      "body": [
-        "economy give $target smp3:tongbao 10",
-        "economy give $target smp3:coffee_stamp 1"
-      ]
-    },
-    {
-      "enable": true,
       "document": "打开服务器菜单。",
       "requirement": {
         "level": 0,
@@ -468,6 +455,18 @@
       "head": "menu",
       "body": [
         "command-menu open %player:name% main-menu"
+      ]
+    },
+    {
+      "enable": true,
+      "document": "查询自己的通宝余额（economy balance 简写）。",
+      "requirement": {
+        "level": 0,
+        "string": null
+      },
+      "head": "balance",
+      "body": [
+        "run as player %player:name% economy balance"
       ]
     }
   ],
