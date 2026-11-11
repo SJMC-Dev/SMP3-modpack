@@ -69,7 +69,7 @@ narratorHotkey:true
 resourcePacks:["serilum_mod_translations","vanilla","file/Xaero地图汉化(MiniMap+WorldMap).zip","file/SodiumTranslations.zip","continuity:glass_pane_culling_fix","continuity:default","lambdabettergrass:default","file/SMP3抽奖券材质.zip"]
 incompatibleResourcePacks:[]
 lastServer:
-lang:en_us
+lang:zh_cn
 chatVisibility:0
 chatOpacity:1.0
 chatLineSpacing:0.0
