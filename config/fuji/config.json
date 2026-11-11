@@ -224,7 +224,7 @@
       }
     },
     "sit": {
-      "enable": false
+      "enable": true
     },
     "sign_editor": {
       "enable": false
