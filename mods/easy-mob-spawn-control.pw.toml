@@ -1,0 +1,13 @@
+name = "Easy Mob Spawn Control"
+filename = "easy_mob_spawn_control-1.7.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pTXV6gwq/versions/XS3LX77o/easy_mob_spawn_control-1.7.2.jar"
+hash-format = "sha512"
+hash = "04ecbd605bad898526b79172bc4186a9582fdc6ab370c6f47432df402ce2e28218979e0599046588254f56d70a8b71c4d4251dee0bb691a000a3158a82404bbe"
+
+[update]
+[update.modrinth]
+mod-id = "pTXV6gwq"
+version = "XS3LX77o"
