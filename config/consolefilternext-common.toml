@@ -1,0 +1,35 @@
+[general]
+	skipMessagesWithStackTrace = false
+	modIdFilters = []
+	activeProfile = "default"
+	whitelistMode = false
+	sourceFilters = []
+	ignoreCase = false
+	filterLatestLog = true
+	loggerFilters = []
+	basicFilters = []
+	levelFilters = []
+	threadFilters = []
+	regexFilters = [
+		"Policy of .* is: online",
+		"Using cached UUID for .*: [0-9a-fA-F-]{36}",
+		"Player .* standing on air - force-sending blocks below"
+	]
+
+	[profiles.debug]
+		modIdFilters = []
+		sourceFilters = []
+		loggerFilters = []
+		basicFilters = []
+		levelFilters = []
+		threadFilters = []
+		regexFilters = []
+
+	[profiles.production]
+		modIdFilters = []
+		sourceFilters = []
+		loggerFilters = []
+		basicFilters = []
+		levelFilters = []
+		threadFilters = []
+		regexFilters = []

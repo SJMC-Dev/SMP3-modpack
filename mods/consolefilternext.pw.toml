@@ -1,0 +1,13 @@
+name = "Console Filter Next"
+filename = "consolefilternext-26.3-4.2.0-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tFqJGW2q/versions/LsF0yH6Z/consolefilternext-26.3-4.2.0-fabric.jar"
+hash-format = "sha512"
+hash = "759c7c6dabe528f53ffa59a35169c165f589245134273a8ecc2d265d6b41a6ab5feb1a5e47c62d1c72fe2d15038041803b4d24d4b937af5af4927977c2b16c33"
+
+[update]
+[update.modrinth]
+mod-id = "tFqJGW2q"
+version = "LsF0yH6Z"
