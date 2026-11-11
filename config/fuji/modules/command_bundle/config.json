@@ -468,6 +468,18 @@
       "body": [
         "run as player %player:name% economy balance"
       ]
+    },
+    {
+      "enable": true,
+      "document": "economy pay 的简写。",
+      "requirement": {
+        "level": 0,
+        "string": null
+      },
+      "head": "pay <player target> <currency_id currencyId> <double amount>",
+      "body": [
+        "run as player %player:name% economy pay $target $currencyId $amount"
+      ]
     }
   ],
   "MOD_VERSION": "14.12.0"
