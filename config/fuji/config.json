@@ -86,7 +86,7 @@
       "enable": false
     },
     "tpa": {
-      "enable": false
+      "enable": true
     },
     "back": {
       "enable": false

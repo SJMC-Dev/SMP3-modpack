@@ -480,6 +480,18 @@
       "body": [
         "run as player %player:name% economy pay $target $currencyId $amount"
       ]
+    },
+    {
+      "enable": true,
+      "document": "接受 TPA 请求时从发起者扣除 10 smp3:tongbao。",
+      "requirement": {
+        "level": 0,
+        "string": null
+      },
+      "head": "paid-tpaaccept <player target>",
+      "body": [
+        "IF has-currency? $target smp3:tongbao 10 THEN chain run as player %player:name% tpaaccept $target chain economy take $target smp3:tongbao 10 ELSE send-message %player:name% <red>发起者通宝不足 10，无法接受传送请求。"
+      ]
     }
   ],
   "MOD_VERSION": "14.12.0"

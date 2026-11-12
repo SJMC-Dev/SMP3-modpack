@@ -35,6 +35,14 @@
     {
       "regex": "^(.*\\brun\\s+)home\\s+unset(\\s+.*)$",
       "replacement": "$1fuji-home-unset$2"
+    },
+    {
+      "regex": "^/?tpaaccept\\s+(?!all$)(\\S+)$",
+      "replacement": "paid-tpaaccept $1"
+    },
+    {
+      "regex": "^(.*\\brun\\s+)tpaaccept\\s+(?!all(?:\\s|$))(\\S+)$",
+      "replacement": "$1paid-tpaaccept $2"
     }
   ],
   "MOD_VERSION": "14.12.0"
