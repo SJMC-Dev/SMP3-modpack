@@ -55,7 +55,7 @@
         "enable": true
       },
       "history": {
-        "enable": true
+        "enable": false
       },
       "trigger": {
         "enable": true
@@ -269,7 +269,7 @@
       "enable": false
     },
     "command_cooldown": {
-      "enable": false
+      "enable": true
     },
     "command_toolbox": {
       "enable": true,

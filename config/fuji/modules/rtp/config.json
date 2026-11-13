@@ -9,7 +9,7 @@
         "circle": true,
         "min_range": 1000,
         "max_range": 5000,
-        "min_y": -64,
+        "min_y": 64,
         "max_y": 320,
         "max_try_times": 16,
         "async_chunk_loading_timeout_ticks": 200,

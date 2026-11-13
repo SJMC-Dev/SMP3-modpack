@@ -1,0 +1,12 @@
+{
+  "admin_players_can_bypass": false,
+  "unnamed_cooldown": {
+    "^rtp(?:\\s+.*)?$": 300000,
+    "^paid-rtp(?:\\s+.*)?$": 300000,
+    "^tpa(?:\\s+.*)?$": 300000
+  },
+  "named_cooldown": {
+    "list": {}
+  },
+  "MOD_VERSION": "14.12.0"
+}

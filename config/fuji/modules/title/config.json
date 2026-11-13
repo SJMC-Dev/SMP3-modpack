@@ -1,14 +1,24 @@
 {
-  "default_active_title_id": null,
-  "no_active_title_text": "",
+  "default_active_title_id": "000_Player",
+  "no_active_title_text": "<color:#AAAAAA>「玩家」</color>",
   "title_descriptors": [
+    {
+      "id": "000_Player",
+      "item": "minecraft:name_tag",
+      "display_name": "<color:#AAAAAA>「玩家」</color>",
+      "lore": [
+        "<grey>稀有度：<color:#AAAAAA>垃圾级</color>",
+        "<grey>默认称号"
+      ]
+    },
     {
       "id": "advancement_minecraft",
       "item": "minecraft:grass_block",
       "display_name": "<gradient:#0086D1:#10B7DA>「方界通明」</gradient>",
       "lore": [
         "<grey>稀有度：<gradient:#0086D1:#10B7DA>稀有级</gradient>",
-        "<grey>完成 Minecraft 进度树"
+        "<grey>我已经完全理解MC了",
+        "<grey>完成了Minecraft进度树"
       ]
     },
     {
@@ -17,7 +27,8 @@
       "display_name": "<gradient:#AA00AA:#E70DC6>「万境行者」</gradient>",
       "lore": [
         "<grey>稀有度：<gradient:#AA00AA:#E70DC6>史诗级</gradient>",
-        "<grey>完成冒险进度树"
+        "<grey>史蒂夫亡命天涯",
+        "<grey>完成了冒险进度树"
       ]
     },
     {
@@ -26,7 +37,8 @@
       "display_name": "<gradient:#AA00AA:#E70DC6>「狱火归人」</gradient>",
       "lore": [
         "<grey>稀有度：<gradient:#AA00AA:#E70DC6>史诗级</gradient>",
-        "<grey>完成下界进度树"
+        "<grey>多喝岩浆",
+        "<grey>完成了下界进度树"
       ]
     },
     {
@@ -35,7 +47,8 @@
       "display_name": "<gradient:#AA00AA:#E70DC6>「彼岸终旅」</gradient>",
       "lore": [
         "<grey>稀有度：<gradient:#AA00AA:#E70DC6>史诗级</gradient>",
-        "<grey>完成末地进度树"
+        "<grey>我才是末影龙",
+        "<grey>完成了末地进度树"
       ]
     },
     {
@@ -44,7 +57,8 @@
       "display_name": "<gradient:#AA00AA:#E70DC6>「丰岁知耕」</gradient>",
       "lore": [
         "<grey>稀有度：<gradient:#AA00AA:#E70DC6>史诗级</gradient>",
-        "<grey>完成农牧业进度树"
+        "<grey>乡土MC",
+        "<grey>完成了农牧业进度树"
       ]
     },
     {
@@ -53,7 +67,8 @@
       "display_name": "<gradient:#FFD700:#FCAB0E>「全进度大神」</gradient>",
       "lore": [
         "<grey>稀有度：<gradient:#FFD700:#FCAB0E>传说级</gradient>",
-        "<grey>完成全部进度"
+        "<grey>土生土长方块人",
+        "<grey>完成了全部进度"
       ]
     },
     {
@@ -62,7 +77,7 @@
       "display_name": "<color:#F2F2F6>「方来乍到」</color>",
       "lore": [
         "<grey>稀有度：<color:#F2F2F6>普通级</color>",
-        "<grey>累计签到 2 天"
+        "<grey>累计签到2天"
       ]
     },
     {
@@ -71,7 +86,7 @@
       "display_name": "<gradient:#0086D1:#10B7DA>「略有方龄」</gradient>",
       "lore": [
         "<grey>稀有度：<gradient:#0086D1:#10B7DA>稀有级</gradient>",
-        "<grey>累计签到 30 天"
+        "<grey>累计签到30天"
       ]
     },
     {
@@ -80,7 +95,7 @@
       "display_name": "<gradient:#AA00AA:#E70DC6>「方龄正盛」</gradient>",
       "lore": [
         "<grey>稀有度：<gradient:#AA00AA:#E70DC6>史诗级</gradient>",
-        "<grey>累计签到 120 天"
+        "<grey>累计签到120天"
       ]
     },
     {
@@ -89,7 +104,7 @@
       "display_name": "<gradient:#FFD700:#FCAB0E>「上古方民」</gradient>",
       "lore": [
         "<grey>稀有度：<gradient:#FFD700:#FCAB0E>传说级</gradient>",
-        "<grey>累计签到 365 天"
+        "<grey>累计签到365天"
       ]
     },
     {
@@ -98,7 +113,92 @@
       "display_name": "<color:#BD0F1E>「还在玩啊」</color>",
       "lore": [
         "<grey>稀有度：<color:#BD0F1E>究极级</color>",
-        "<grey>累计签到 1000 天"
+        "<grey>累计签到1000天"
+      ]
+    },
+    {
+      "id": "012_OP",
+      "item": "minecraft:command_block",
+      "display_name": "<color:#ff5722>「运营团队」</color>",
+      "lore": [
+        "<grey>稀有度：<color:#ff5722>特殊级</color>",
+        "<grey>加入SMP3运营团队"
+      ]
+    },
+    {
+      "id": "013_Traf_Official",
+      "item": "minecraft:minecart",
+      "display_name": "<gradient:#07d95b:#08c9d9>「社营交通局」</gradient>",
+      "lore": [
+        "<grey>稀有度：<gradient:#07d95b:#08c9d9>特殊级</gradient>",
+        "<grey>加入社营交通局"
+      ]
+    },
+    {
+      "id": "014_Summer_Limit",
+      "item": "minecraft:sunflower",
+      "display_name": "<gradient:#0086D1:#10B7DA>「夏浪新章」</gradient>",
+      "lore": [
+        "<grey>稀有度：<gradient:#0086D1:#10B7DA>稀有级</gradient>",
+        "<grey>参与2026暑期原版限时服"
+      ]
+    },
+    {
+      "id": "015_SLB_1",
+      "item": "minecraft:bricks",
+      "display_name": "<gradient:#AA00AA:#E70DC6>「筑宇新章」</gradient>",
+      "lore": [
+        "<grey>稀有度：<gradient:#AA00AA:#E70DC6>史诗级</gradient>",
+        "<grey>参与2026暑期原版限时服的「筑立新章」活动"
+      ]
+    },
+    {
+      "id": "016_SLB_2",
+      "item": "minecraft:beacon",
+      "display_name": "<gradient:#FFD700:#FCAB0E>「新章巨匠」</gradient>",
+      "lore": [
+        "<grey>稀有度：<gradient:#FFD700:#FCAB0E>传说级</gradient>",
+        "<grey>在「筑立新章」活动中获评「宏伟巨作」奖"
+      ]
+    },
+    {
+      "id": "017_SLB_3",
+      "item": "minecraft:carved_pumpkin",
+      "display_name": "<gradient:#FFD700:#FCAB0E>「新章笑匠」</gradient>",
+      "lore": [
+        "<grey>稀有度：<gradient:#FFD700:#FCAB0E>传说级</gradient>",
+        "<grey>在「筑立新章」活动中获评「抽象整活」奖"
+      ]
+    },
+    {
+      "id": "018_SMP2_Photo",
+      "item": "minecraft:spyglass",
+      "display_name": "<gradient:#AA00AA:#E70DC6>「方寸拾光」</gradient>",
+      "lore": [
+        "<grey>稀有度：<gradient:#AA00AA:#E70DC6>史诗级</gradient>",
+        "<grey>参与SMP2的「方寸拾光」活动"
+      ]
+    },
+    {
+      "id": "019_SMP2_Player",
+      "item": "minecraft:compass",
+      "display_name": "<gradient:#0086D1:#10B7DA>「新洲遗民」</gradient>",
+      "lore": [
+        "<grey>稀有度：<gradient:#0086D1:#10B7DA>稀有级</gradient>",
+        "<grey>源洲既殁，新洲渐盛",
+        "<grey>而今神谕再临，彼岸初启",
+        "<grey>其土未垦，其城未筑，其灾未明",
+        "<grey>世人遂渡云海而往，称其地曰——启洲",
+        "<grey>SMP3开服前游玩过SMP2"
+      ]
+    },
+    {
+      "id": "020_Prison",
+      "item": "minecraft:iron_bars",
+      "display_name": "<color:#AAAAAA>「牢底坐穿」</color>",
+      "lore": [
+        "<grey>稀有度：<color:#AAAAAA>垃圾级</color>",
+        "<grey>好好改造，老实做人"
       ]
     },
     {
@@ -107,7 +207,8 @@
       "display_name": "<color:#F2F2F6>「白手起家」</color>",
       "lore": [
         "<grey>稀有度：<color:#F2F2F6>普通级</color>",
-        "<grey>累计消费 500 通宝"
+        "<grey>要致富，先撸树",
+        "<grey>在称号商店购买（500 铁镐通宝）"
       ]
     },
     {
@@ -116,7 +217,8 @@
       "display_name": "<gradient:#0086D1:#10B7DA>「小有积蓄」</gradient>",
       "lore": [
         "<grey>稀有度：<gradient:#0086D1:#10B7DA>稀有级</gradient>",
-        "<grey>累计消费 2000 通宝"
+        "<grey>准备好大干一场了吗？",
+        "<grey>在称号商店购买（2000 铁镐通宝）"
       ]
     },
     {
@@ -125,7 +227,8 @@
       "display_name": "<gradient:#AA00AA:#E70DC6>「腰缠万贯」</gradient>",
       "lore": [
         "<grey>稀有度：<gradient:#AA00AA:#E70DC6>史诗级</gradient>",
-        "<grey>累计消费 10000 通宝"
+        "<grey>走向史蒂夫生巅峰",
+        "<grey>在称号商店购买（10000 铁镐通宝）"
       ]
     },
     {
@@ -134,7 +237,28 @@
       "display_name": "<gradient:#FFD700:#FCAB0E>「富可敌国」</gradient>",
       "lore": [
         "<grey>稀有度：<gradient:#FFD700:#FCAB0E>传说级</gradient>",
-        "<grey>累计消费 100000 通宝"
+        "<grey>实现财富自由！",
+        "<grey>在称号商店购买（100000 铁镐通宝）"
+      ]
+    },
+    {
+      "id": "025_Saving_Mouse",
+      "item": "minecraft:bundle",
+      "display_name": "<gradient:#AA00AA:#E70DC6>「屯屯鼠」</gradient>",
+      "lore": [
+        "<grey>稀有度：<gradient:#AA00AA:#E70DC6>史诗级</gradient>",
+        "<grey>在这存着可没有利息哦",
+        "<grey>咖啡印章余额达到1000"
+      ]
+    },
+    {
+      "id": "026_Saving_King",
+      "item": "minecraft:ender_chest",
+      "display_name": "<gradient:#FFD700:#FCAB0E>「勃列史蒂夫」</gradient>",
+      "lore": [
+        "<grey>稀有度：<gradient:#FFD700:#FCAB0E>传说级</gradient>",
+        "<grey>XP可能是咖啡印章？",
+        "<grey>咖啡印章余额达到5000"
       ]
     },
     {
@@ -143,7 +267,35 @@
       "display_name": "<gradient:#0086D1:#10B7DA>「开服玩家」</gradient>",
       "lore": [
         "<grey>稀有度：<gradient:#0086D1:#10B7DA>稀有级</gradient>",
-        "<grey>开服玩家专属"
+        "<grey>过几个月，你就是古人了！",
+        "<grey>在3.0版本活动「新启之礼Ⅰ」中累计签到7天"
+      ]
+    },
+    {
+      "id": "028_Housing_1",
+      "item": "minecraft:ender_pearl",
+      "display_name": "<gradient:#AA00AA:#E70DC6>「云津引渡」</gradient>",
+      "lore": [
+        "<grey>稀有度：<gradient:#AA00AA:#E70DC6>史诗级</gradient>",
+        "<grey>在3.0版本活动「云途再续Ⅰ」中建立传送点"
+      ]
+    },
+    {
+      "id": "029_5_Star_Guide",
+      "item": "minecraft:writable_book",
+      "display_name": "<gradient:#0086D1:#10B7DA>「五星导游」</gradient>",
+      "lore": [
+        "<grey>稀有度：<gradient:#0086D1:#10B7DA>稀有级</gradient>",
+        "<grey>在活动「共叙新程」中撰写地标展示"
+      ]
+    },
+    {
+      "id": "030_Shuiyuan_Friend",
+      "item": "minecraft:lectern",
+      "display_name": "<gradient:#AA00AA:#E70DC6>「方块源友」</gradient>",
+      "lore": [
+        "<grey>稀有度：<gradient:#AA00AA:#E70DC6>史诗级</gradient>",
+        "<grey>在活动「共叙新程」中在水源回帖并获得大量点赞"
       ]
     },
     {
@@ -152,7 +304,7 @@
       "display_name": "<gradient:#0086D1:#10B7DA>「烬界筑光」</gradient>",
       "lore": [
         "<grey>稀有度：<gradient:#0086D1:#10B7DA>稀有级</gradient>",
-        "<grey>特殊贡献称号"
+        "<grey>在活动「新门共筑」中参与下界主门的建设"
       ]
     }
   ],
