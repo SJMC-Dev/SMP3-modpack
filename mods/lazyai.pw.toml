@@ -1,0 +1,13 @@
+name = "LazyAI"
+filename = "lazy-ai-1.7.2.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/qgWgCnzi/versions/1cPf8ULW/lazy-ai-1.7.2.jar"
+hash-format = "sha512"
+hash = "4fccf8ad7f453b8f1e8487d4d2820b35a6d103755142e9136e8329774c4ee785e6dea25d739021c666dab56a85a1a37c679a4ae51dac4a52aeb2821975e10561"
+
+[update]
+[update.modrinth]
+mod-id = "qgWgCnzi"
+version = "1cPf8ULW"

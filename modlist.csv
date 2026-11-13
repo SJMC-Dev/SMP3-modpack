@@ -50,3 +50,4 @@
 ,disable-dimensions-reimagined,辅助,禁用维度重制版,server,
 ,easy-mob-spawn-control,功能,刷怪控制,both,
 ,consolefilternext,辅助,控制台日志过滤,both,
+,lazyai,优化,生物 AI 距离优化,server,
