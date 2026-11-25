@@ -12,7 +12,7 @@
       ]
     },
     {
-      "id": "advancement_minecraft",
+      "id": "001_Adv_Story",
       "item": "minecraft:grass_block",
       "display_name": "<gradient:#0086D1:#10B7DA>「方界通明」</gradient>",
       "lore": [
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "id": "advancement_adventure",
+      "id": "002_Adv_Adventure",
       "item": "minecraft:map",
       "display_name": "<gradient:#AA00AA:#E70DC6>「万境行者」</gradient>",
       "lore": [
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": "advancement_nether",
+      "id": "003_Adv_Nether",
       "item": "minecraft:netherrack",
       "display_name": "<gradient:#AA00AA:#E70DC6>「狱火归人」</gradient>",
       "lore": [
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "id": "advancement_end",
+      "id": "004_Adv_End",
       "item": "minecraft:end_stone",
       "display_name": "<gradient:#AA00AA:#E70DC6>「彼岸终旅」</gradient>",
       "lore": [
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "id": "advancement_farming",
+      "id": "005_Adv_Husbandry",
       "item": "minecraft:wheat",
       "display_name": "<gradient:#AA00AA:#E70DC6>「丰岁知耕」</gradient>",
       "lore": [
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "id": "advancement_all",
+      "id": "006_Adv_All",
       "item": "minecraft:nether_star",
       "display_name": "<gradient:#FFD700:#FCAB0E>「全进度大神」</gradient>",
       "lore": [
@@ -72,7 +72,7 @@
       ]
     },
     {
-      "id": "signin_t1",
+      "id": "007_SignIn_1",
       "item": "minecraft:oak_sapling",
       "display_name": "<color:#F2F2F6>「方来乍到」</color>",
       "lore": [
@@ -81,7 +81,7 @@
       ]
     },
     {
-      "id": "signin_t2",
+      "id": "008_SignIn_2",
       "item": "minecraft:clock",
       "display_name": "<gradient:#0086D1:#10B7DA>「略有方龄」</gradient>",
       "lore": [
@@ -90,7 +90,7 @@
       ]
     },
     {
-      "id": "signin_t3",
+      "id": "009_SignIn_3",
       "item": "minecraft:experience_bottle",
       "display_name": "<gradient:#AA00AA:#E70DC6>「方龄正盛」</gradient>",
       "lore": [
@@ -99,7 +99,7 @@
       ]
     },
     {
-      "id": "signin_t4",
+      "id": "010_SignIn_4",
       "item": "minecraft:ancient_debris",
       "display_name": "<gradient:#FFD700:#FCAB0E>「上古方民」</gradient>",
       "lore": [
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": "signin_t5",
+      "id": "011_SignIn_5",
       "item": "minecraft:totem_of_undying",
       "display_name": "<color:#BD0F1E>「还在玩啊」</color>",
       "lore": [
@@ -202,7 +202,7 @@
       ]
     },
     {
-      "id": "wealth_t1",
+      "id": "021_Wealth_1",
       "item": "minecraft:wooden_pickaxe",
       "display_name": "<color:#F2F2F6>「白手起家」</color>",
       "lore": [
@@ -212,7 +212,7 @@
       ]
     },
     {
-      "id": "wealth_t2",
+      "id": "022_Wealth_2",
       "item": "minecraft:iron_pickaxe",
       "display_name": "<gradient:#0086D1:#10B7DA>「小有积蓄」</gradient>",
       "lore": [
@@ -222,7 +222,7 @@
       ]
     },
     {
-      "id": "wealth_t3",
+      "id": "023_Wealth_3",
       "item": "minecraft:golden_pickaxe",
       "display_name": "<gradient:#AA00AA:#E70DC6>「腰缠万贯」</gradient>",
       "lore": [
@@ -232,7 +232,7 @@
       ]
     },
     {
-      "id": "wealth_t4",
+      "id": "024_Wealth_4",
       "item": "minecraft:diamond_pickaxe",
       "display_name": "<gradient:#FFD700:#FCAB0E>「富可敌国」</gradient>",
       "lore": [
@@ -262,7 +262,7 @@
       ]
     },
     {
-      "id": "founding_player",
+      "id": "027_Sign_In_1",
       "item": "minecraft:campfire",
       "display_name": "<gradient:#0086D1:#10B7DA>「开服玩家」</gradient>",
       "lore": [
@@ -299,7 +299,7 @@
       ]
     },
     {
-      "id": "nether_builder",
+      "id": "031_Nether_Townhall",
       "item": "minecraft:soul_lantern",
       "display_name": "<gradient:#0086D1:#10B7DA>「烬界筑光」</gradient>",
       "lore": [
