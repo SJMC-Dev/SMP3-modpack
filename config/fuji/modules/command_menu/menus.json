@@ -94,7 +94,7 @@
           "glow": false,
           "lore": [
             "<gray>领取每日签到奖励",
-            "<yellow>点击打开签到界面"
+            "<yellow>点击打开菜单，选择签到页"
           ],
           "view_requirement": {
             "level": 0,
@@ -102,7 +102,7 @@
           },
           "commands": {
             "on_left_click_commands": [
-              "run as player %player:name% sign"
+              "run as player %player:name% smp3 menu"
             ],
             "on_left_shift_click_commands": [],
             "on_right_click_commands": [],
@@ -177,7 +177,7 @@
           "glow": false,
           "lore": [
             "<gray>购买建材、特殊物品、称号，回收物品",
-            "<yellow>点击查看商店列表"
+            "<yellow>点击打开菜单，选择商店页"
           ],
           "view_requirement": {
             "level": 0,
@@ -185,7 +185,7 @@
           },
           "commands": {
             "on_left_click_commands": [
-              "shop %player:name%"
+              "run as player %player:name% smp3 menu"
             ],
             "on_left_shift_click_commands": [],
             "on_right_click_commands": [],

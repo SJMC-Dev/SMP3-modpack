@@ -21,22 +21,6 @@
       "replacement": "$1paid-rtp$2"
     },
     {
-      "regex": "^/?home set(\\s+\\S+).*$",
-      "replacement": "fuji-home-set$1"
-    },
-    {
-      "regex": "^(.*\\brun\\s+)home\\s+set(\\s+\\S+).*$",
-      "replacement": "$1fuji-home-set$2"
-    },
-    {
-      "regex": "^/?home unset(\\s+.*)$",
-      "replacement": "fuji-home-unset$1"
-    },
-    {
-      "regex": "^(.*\\brun\\s+)home\\s+unset(\\s+.*)$",
-      "replacement": "$1fuji-home-unset$2"
-    },
-    {
       "regex": "^/?tpaaccept\\s+(?!all$)(\\S+)$",
       "replacement": "paid-tpaaccept $1"
     },

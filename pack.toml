@@ -1,6 +1,6 @@
 name = "smp3"
 author = "SJMC"
-version = "dev"
+version = "3.0.8"
 pack-format = "packwiz:1.1.0"
 
 [index]

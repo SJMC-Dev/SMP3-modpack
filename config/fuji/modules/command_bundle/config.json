@@ -421,32 +421,6 @@
     },
     {
       "enable": true,
-      "document": "设置家，每人最多两个。",
-      "requirement": {
-        "level": 0,
-        "string": null
-      },
-      "head": "fuji-home-set <home-name home>",
-      "body": [
-        "scoreboard players add %player:name% fuji_home_count 0",
-        "IF execute if score %player:name% fuji_home_count matches ..1 THEN chain run as player %player:name% home set $home chain scoreboard players add %player:name% fuji_home_count 1 ELSE send-message %player:name% <red>你最多只能设置 2 个家。"
-      ]
-    },
-    {
-      "enable": true,
-      "document": "删除家并减少计数。",
-      "requirement": {
-        "level": 0,
-        "string": null
-      },
-      "head": "fuji-home-unset <home-name home>",
-      "body": [
-        "scoreboard players add %player:name% fuji_home_count 0",
-        "chain run as player %player:name% home unset $home chain scoreboard players remove %player:name% fuji_home_count 1"
-      ]
-    },
-    {
-      "enable": true,
       "document": "打开服务器菜单。",
       "requirement": {
         "level": 0,

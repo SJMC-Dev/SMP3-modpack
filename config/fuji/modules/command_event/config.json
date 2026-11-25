@@ -50,9 +50,7 @@
     },
     "on_server_started": {
       "enable": true,
-      "commands": [
-        "scoreboard objectives add fuji_home_count dummy"
-      ]
+      "commands": []
     },
     "on_server_stopping": {
       "enable": false,
