@@ -17,7 +17,7 @@
     "craftingRecipesSaveFileIsGlobal": false,
     "reverseScrollDirectionSingle": false,
     "reverseScrollDirectionStacks": false,
-    "useSlotPositionAwareScrollDirection": false,
+    "useSlotPositionAwareScrollDirection": true,
     "translationLanguage": "zh_cn",
     "translationMode": "vanilla",
     "useRecipeCaching": true,
