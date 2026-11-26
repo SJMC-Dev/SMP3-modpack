@@ -421,14 +421,14 @@
     },
     {
       "enable": true,
-      "document": "打开服务器菜单。",
+      "document": "打开 SMP3 统一菜单。",
       "requirement": {
         "level": 0,
         "string": null
       },
       "head": "menu",
       "body": [
-        "command-menu open %player:name% main-menu"
+        "run as player %player:name% smp3 menu"
       ]
     },
     {
